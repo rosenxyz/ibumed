@@ -15,9 +15,9 @@ tags:
 ---
 
 
-Değerli Üyelerimiz Abant İzzet Baysal Üniversitesi Mezunları Derneği (İBUMED) Genel Merkezi, 4. Olağan Genel Kurulu'nun ilk toplantısı 17 Temmuz 2019 saat 16:00'da Altayçeşme Mh. Bolayır Sk. No: 1/4 Maltepe İstanbul adresinde, çoğunluk sağlanamadığı takdirde ikinci toplantı 27 Temmuz 2019 saat 19:00'da Altayçeşme Mh. Samanyolu Sk. No:18 Kat 1 34843 Maltepe İstanbul (TESMER Anadolu Eğitim Birimi) adresinde aşağıdaki gündem ile yapılacaktır;
+Değerli Üyelerimiz Abant İzzet Baysal Üniversitesi Mezunları Derneği (**İBUMED**) Genel Merkezi, **4. Olağan Genel Kurulu**'nun ilk toplantısı **17 Temmuz 2019** saat 16:00'da Altayçeşme Mh. Bolayır Sk. No: 1/4 Maltepe İstanbul adresinde, çoğunluk sağlanamadığı takdirde ikinci toplantı **27 Temmuz 2019 saat 19:00**'da Altayçeşme Mh. Samanyolu Sk. No:18 Kat 1 34843 Maltepe İstanbul (TESMER Anadolu Eğitim Birimi) adresinde aşağıdaki gündem ile yapılacaktır;
 
-Gündem:
+## Gündem:
 
 - Açılış ve yoklama
 - Divan Başkanı seçimi
@@ -28,4 +28,5 @@ Gündem:
 - Yönetim Kurulu ve Denetim Kurulu'nun ibrası
 - Dernek organlarının asıl ve yedek üyelerinin seçimi
 - Dilek ve temenniler
+
 Abant İzzet Baysal Üniversitesi Mezunları Derneği (İBUMED) Tüzüğü uyarınca tüm üyelerimize duyurulur.
