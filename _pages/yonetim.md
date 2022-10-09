@@ -12,7 +12,18 @@ header:
   overlay_filter: rgba(4, 147, 114, 0.9)
 ---
 
-## Yönetim Kurulu
+## İBUMED Yeni Yönetim Kurulu:
+
+* Nihal Öğten (Başkan
+* Prof. Dr. Cevher Altuğ (Başkan Yardımcısı)
+* Doç. Dr. Cengizhan Yıldırım (Sayman
+* Cem Kösemeci (Genel Sekreter)
+* Doç. Dr. Kerim Sözbir (Üye)
+* Doç. Dr. Nuriye Özengin (Üye)
+* İlkay Bağatır (Üye)
+
+
+## Önceki Yönetim Kurulları
 
 * Nihal Öğten: ( Başkan )
 * Mert Birincioğlu: ( Başkan Yardımcısı )
@@ -21,8 +32,6 @@ header:
 * Fatih Soyaydın: ( Üye )
 * Zuhal Kılınç: ( Üye )
 * Elçim Badur: ( Üye )
-
-## Önceki Yönetim Kurulları
 
 ### 27.07.2013 – 29.07.2016 Yönetim Kurulu
 
