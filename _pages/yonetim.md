@@ -14,7 +14,7 @@ header:
 
 ## İBUMED Yeni Yönetim Kurulu:
 
-* Nihal Öğten (Başkan
+* Nihal Öğten (Başkan)
 * Prof. Dr. Cevher Altuğ (Başkan Yardımcısı)
 * Doç. Dr. Cengizhan Yıldırım (Sayman
 * Cem Kösemeci (Genel Sekreter)

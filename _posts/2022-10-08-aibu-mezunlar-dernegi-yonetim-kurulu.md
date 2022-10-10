@@ -9,7 +9,7 @@ header:
   overlay_filter: rgba(4, 147, 114, 0.9)
 last_modified_at: 2022-10-10T16:20:02-05:00
 categories:
-  - Blog
+  - blog
 tags:
   - AİBÜ Rektörlük Ziyareti
 ---
