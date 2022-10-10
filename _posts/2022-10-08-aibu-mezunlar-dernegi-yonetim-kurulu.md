@@ -17,9 +17,7 @@ tags:
 
 İzzet Baysal’ın eğitim dünyasında açtığı yolda ilerleyerek, Bolu Abant İzzet Baysal Üniversitesi(BAİBÜ)’nin kuruluşundan itibaren tüm mezunlarına ulaşmak, mezunlar arasında iletişim ve beraberliği sağlamak, mezunlar ile öğrenciler arasında bir köprü oluşturmak, mezun adaylarına iş ve sosyal yaşantılarında pozitif ayrımcılık sağlayacak faaliyetleri organize etmek ve BAİBÜ kimliğini mezunlar vasıtasıyla yüceltmek misyonuyla 2010 yılında kurulan **BAİBÜ Mezunları Derneği (İBUMED)** yeni yönetim kurulu üyeleri Rektörümüz **Prof. Dr. Mustafa Alişarlı**’yı makamında ziyaret etti.
 
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/posts/2022-10-08-aibu-mezunlar-dernegi-yonetim-kurulu/1.jpeg" alt="BAİBÜ Mezunları Derneği (İBUMED) yeni yönetim kurulu üyeleri Rektörümüz Prof. Dr. Mustafa Alişarlı’yı makamında ziyaret etti.">
-
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/posts/2022-10-08-aibu-mezunlar-dernegi-yonetim-kurulu/2.jpeg" alt="BAİBÜ Mezunları Derneği (İBUMED) yeni yönetim kurulu üyeleri Rektörümüz Prof. Dr. Mustafa Alişarlı’yı makamında ziyaret etti.">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/posts/2022-10-08-aibu-mezunlar-dernegi-yonetim-kurulu/3.jpeg" alt="BAİBÜ Mezunları Derneği (İBUMED) yeni yönetim kurulu üyeleri Rektörümüz Prof. Dr. Mustafa Alişarlı’yı makamında ziyaret etti.">
 
 
 ## İBUMED Yönetim Kurulu:
@@ -32,6 +30,6 @@ tags:
 * Doç. Dr. Nuriye Özengin (Üye)
 * İlkay Bağatır (Üye)
 
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/posts/2022-10-08-aibu-mezunlar-dernegi-yonetim-kurulu/3.jpeg" alt="BAİBÜ Mezunları Derneği (İBUMED) yeni yönetim kurulu üyeleri Rektörümüz Prof. Dr. Mustafa Alişarlı’yı makamında ziyaret etti.">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/posts/2022-10-08-aibu-mezunlar-dernegi-yonetim-kurulu/1.jpeg" alt="BAİBÜ Mezunları Derneği (İBUMED) yeni yönetim kurulu üyeleri Rektörümüz Prof. Dr. Mustafa Alişarlı’yı makamında ziyaret etti.">
 
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/posts/2022-10-08-aibu-mezunlar-dernegi-yonetim-kurulu/4.jpeg" alt="BAİBÜ Mezunları Derneği (İBUMED) yeni yönetim kurulu üyeleri Rektörümüz Prof. Dr. Mustafa Alişarlı’yı makamında ziyaret etti.">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/posts/2022-10-08-aibu-mezunlar-dernegi-yonetim-kurulu/2.jpeg" alt="BAİBÜ Mezunları Derneği (İBUMED) yeni yönetim kurulu üyeleri Rektörümüz Prof. Dr. Mustafa Alişarlı’yı makamında ziyaret etti.">
