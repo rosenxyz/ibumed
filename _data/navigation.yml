@@ -3,9 +3,13 @@ main:
     url: /posts/
   - title: "Üyelik"
     url: /uyelik/
+  - title: "Ön Başvuru"
+    url: /on-basvuru/
   - title: "Hakkımızda"
     url: /about/
-  - title: "Yönetim Kurulu"
+  - title: "Yönetim"
     url: /yonetim/
   - title: "İletişim"
     url: /iletisim/
+  - title: "Login"
+    url: /login/
