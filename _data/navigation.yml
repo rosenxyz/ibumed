@@ -11,5 +11,3 @@ main:
     url: /yonetim/
   - title: "İletişim"
     url: /iletisim/
-  - title: "Login"
-    url: /login/
