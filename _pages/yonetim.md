@@ -33,7 +33,7 @@ header:
 * Barış Demir ( Üye )
 * İlkay Karakılıç ( Üye )
 
-## Önceki Yönetim Kurulları
+### 29.07.2016 - 27.07.2019 Yönetim Kurulu
 
 * Nihal Öğten: ( Başkan )
 * Mert Birincioğlu: ( Başkan Yardımcısı )
