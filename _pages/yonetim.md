@@ -23,6 +23,16 @@ header:
 * İlkay Bağatır (Üye)
 
 
+### 27.07.2019 – 13.08.2022 Yönetim Kurulu
+
+* Senem Dursun Onaran ( Başkan )
+* Mert Birincioğlu ( Genel Sekreter )
+* Nihal Öğten ( Sayman )
+* Cevher Altuğ ( Üye )
+* Birgül Yılmaz ( Üye )
+* Barış Demir ( Üye )
+* İlkay Karakılıç ( Üye )
+
 ## Önceki Yönetim Kurulları
 
 * Nihal Öğten: ( Başkan )
@@ -32,6 +42,7 @@ header:
 * Fatih Soyaydın: ( Üye )
 * Zuhal Kılınç: ( Üye )
 * Elçim Badur: ( Üye )
+
 
 ### 27.07.2013 – 29.07.2016 Yönetim Kurulu
 
