@@ -16,6 +16,18 @@ Eğer siz de Abant İzzet Baysal Üniversitesi'nin mezunlarından biriyseniz ve 
 
 Geçmişten bu güne mezun üyelerimiz arasında, öğrenciler ve mezun adaylarımız arasında, derneğimiz ve üniversitemiz arasında iletişim ve paylaşım ile geliştirdiğimiz bu aileye mutlaka katılmalısınız!
 
+<div class="notice--warning" markdown="1">
+
+<h4 class="no_toc"><i class="fas fa-comment"></i> Bilgilendirme:</h4>
+
+---
+Derneğimize üye olmak isteyen mezunlarımız, öncelikli olarak [ÖN BAŞVURU sayfasındaki](/on-basvuru/) formu doldurmaları gerekmektedir.
+
+Sonrasında bu sayfadaki banka bilgileri aracılığı ile aidatlarını tarafımıza gönderebilirler.
+
+
+</div>
+
 İBUMED Üyeliği için öncelikle [buradan]({{ site.url }}{{ site.baseurl }}/assets/docs/ibumed_uyelik_beyannamesi _2022.pdf) ulaşabileceğiniz üyelik beyannamesini doldurup imzalayarak **ibumed@ibu.edu.tr** adresine imzalı olarak göndermelisiniz.
 
 Sonra, **10 TL** üyelik bedeli ve **1 TL** 2016 yılı aidatı olmak üzere toplam **11 TL** tutarı, aşağıda bilgileri bulunan derneğimizin resmi banka hesabına göndermelisiniz.
