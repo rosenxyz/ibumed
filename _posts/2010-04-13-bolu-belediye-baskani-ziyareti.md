@@ -1,6 +1,6 @@
 ---
 title: "Bolu Belediye Başkanı Ziyareti"
-excerpt: ""
+excerpt: "Abant İzzet Baysal Üniversitesi Mezunları Derneği kurucu ve yöneticileri olarak Bolu Belediye başkanı Alaaddin Yılmazı'ı makamında ziyaret ettik, desteklerini aldık."
 header:
   teaser: "/assets/images/posts/5.jpeg"
   og_image: /assets/images/posts/5.jpeg

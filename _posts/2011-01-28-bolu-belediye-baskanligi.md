@@ -1,6 +1,6 @@
 ---
 title: "Bolu Belediye Başkanlığı"
-excerpt: ""
+excerpt: "Abant İzzet Baysal Üniversitesi Mezunları Derneği ( İBUMED ) yeni Yönetim Kurulu olarak Bolu Belediye Başkanı Alaaddin YILMAZ’ı ziyaret ederek yeni dönem çalışmaları görüşüldü."
 header:
   teaser: "/assets/images/posts/9.jpeg"
   og_image: /assets/images/posts/9.jpeg

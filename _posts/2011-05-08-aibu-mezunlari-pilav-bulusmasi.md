@@ -1,6 +1,6 @@
 ---
 title: "2.Geleneksel AİBÜ Mezunları Pilav buluşması"
-excerpt: ""
+excerpt: "Bolu Abant İzzet Baysal Üniversitesi Mezunları Derneği 2.Geleneksel Pilav buluşması"
 header:
   teaser: "/assets/images/posts/12.jpeg"
   og_image: /assets/images/posts/12.jpeg

@@ -1,6 +1,6 @@
 ---
 title: "AİBÜ Kültür Merkezi"
-excerpt: ""
+excerpt: "Abant İzzet Baysal Üniversitesi Mezunları Derneği tarafından düzenlenen 1.AİBÜ Kariyer Günleri kapsamında eski mezunlarımızdan kariyer tüyoları"
 header:
   teaser: "/assets/images/posts/18.jpeg"
   og_image: /assets/images/posts/18.jpeg
@@ -14,4 +14,4 @@ tags:
   - Kültür Merkezi
 ---
 
-Abant İzzet Baysal Üniversitesi Mezunları Derneği tarafından düzenlenen 1.AİBÜ Kariyer Günleri kapsamında Mezunlar Paneli ile başarılı mezunlarımızdan Fatih YAMANER, Suat KINALIKÖPRÜ, Lale KIVRAK, Murat GÜNAY, Yrd.Doç.Dr.Cevher ALTUĞ AİBÜ öğrencilerine kariyer tiyoları verdiler.
+Abant İzzet Baysal Üniversitesi Mezunları Derneği tarafından düzenlenen 1.AİBÜ Kariyer Günleri kapsamında Mezunlar Paneli ile başarılı mezunlarımızdan Fatih YAMANER, Suat KINALIKÖPRÜ, Lale KIVRAK, Murat GÜNAY, Yrd.Doç.Dr.Cevher ALTUĞ AİBÜ öğrencilerine kariyer tüyoları verdiler.

@@ -1,6 +1,6 @@
 ---
 title: "4.Olağan Genel Kurul"
-excerpt: ""
+excerpt: "Abant İzzet Baysal Üniversitesi Mezunları Derneği (İBUMED), 4. Olağan Genel Kurulu 17 Temmuz 2019 tarihinde toplanıyor"
 header:
   teaser: "/assets/images/posts/20.jpeg"
   og_image: /assets/images/posts/20.jpeg

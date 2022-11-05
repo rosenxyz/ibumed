@@ -40,3 +40,11 @@ feature_row:
 ---
 
 {% include feature_row %}
+
+## Güncel Haberler
+
+<div class="grid__wrapper">
+{% for post in site.posts limit: 8 %}
+  {% include archive-single.html type="grid"  %}
+{% endfor %}
+</div>

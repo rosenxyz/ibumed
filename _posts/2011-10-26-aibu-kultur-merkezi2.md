@@ -1,6 +1,6 @@
 ---
 title: "AİBÜ Kültür Merkezi"
-excerpt: ""
+excerpt: "Abant İzzet Baysal Üniversitesi Mezunları Derneği tarafından düzenlenen 1.AİBÜ Kariyer Günleri kapsamında eski mezunlarımızdan kariyer tüyoları"
 header:
   teaser: "/assets/images/posts/17.jpeg"
   og_image: /assets/images/posts/17.jpeg

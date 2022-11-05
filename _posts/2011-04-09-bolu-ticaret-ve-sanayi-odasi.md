@@ -1,6 +1,6 @@
 ---
 title: "Bolu Ticaret ve Sanayi Odası"
-excerpt: ""
+excerpt: "Abant İzzet Baysal Üniversitesi Mezunları Derneği ( İBUMED ) yeni Yönetim Kurulu olarak Bolu Ticaret ve Sanayi Odası Başkanı Emin SEMERCİOĞLU ziyaret edilerek İBUMED tanıtıldı."
 header:
   teaser: "/assets/images/posts/11.jpeg"
   og_image: /assets/images/posts/11.jpeg

@@ -1,6 +1,6 @@
 ---
 title: "1.AİBÜ Mezunlar Pilavı"
-excerpt: ""
+excerpt: "Bolu Abant İzzet Baysal Üniversitesi Mezunları Derneği 1.AİBÜ Mezunlar Pilav Etkinliğimize Bekleriz."
 header:
   teaser: "/assets/images/posts/6.jpeg"
   og_image: /assets/images/posts/6.jpeg

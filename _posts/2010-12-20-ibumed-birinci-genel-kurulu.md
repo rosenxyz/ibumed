@@ -1,6 +1,6 @@
 ---
 title: "İBUMED 1.Genel Kurulu"
-excerpt: ""
+excerpt: "Bolu Abant İzzet Baysal Üniversitesi Mezunları Derneği 1. Genel Kurulu Toplanıyor."
 header:
   teaser: "/assets/images/posts/7.jpeg"
   og_image: /assets/images/posts/7.jpeg

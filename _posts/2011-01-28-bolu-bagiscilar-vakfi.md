@@ -1,6 +1,6 @@
 ---
 title: "Bolu Bağışçılar Vakfı"
-excerpt: ""
+excerpt: "Abant İzzet Baysal Üniversitesi Mezunları Derneği ( İBUMED ) yeni Yönetim Kurulu olarak Bolu Bağışçılar Vakfı Başkanı Şerafettin ERBAYRAM ziyaret edilerek İBUMED tanıtıldı."
 header:
   teaser: "/assets/images/posts/8.jpeg"
   og_image: /assets/images/posts/8.jpeg

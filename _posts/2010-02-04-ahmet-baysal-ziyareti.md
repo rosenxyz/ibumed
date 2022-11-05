@@ -1,6 +1,6 @@
 ---
 title: "Ahmet Baysal Ziyareti"
-excerpt: ""
+excerpt: "İBUMED(Bolu Abant İzzet Baysal Üniversitesi Mezunları Derneği) Kurucu üyeleri Sayın Ahmet Baysal’ı ziyaret ederek AİBÜ Mezunları Derneğinin kuruluş ile ilgili bilgi vererek görüşleri alındı."
 header:
   teaser: "/assets/images/posts/2.jpeg"
   og_image: /assets/images/posts/2.jpeg

@@ -1,6 +1,6 @@
 ---
 title: "AİBÜ Kültür Merkezi"
-excerpt: ""
+excerpt: "Abant İzzet Baysal Üniversitesi Mezunları Derneği tarafından düzenlenen 1.AİBÜ Kariyer Günleri kapsamında Kariyer.net Eğitim Müdürü Seyhan ÜNER’e katkılarından dolayı Öğrenci Gelişimi ve Mezunlarla İletişim Alanında Rektör Danışmanı Doç.Dr. İbrahim ÇAKIR ve İBUMED Genel Sekreteri Nihal ÖĞTEN tarafından teşekkür plaketi verildi."
 header:
   teaser: "/assets/images/posts/15.jpeg"
   og_image: /assets/images/posts/15.jpeg

@@ -1,6 +1,6 @@
 ---
 title: "AİBÜ Rektörü Prof.Dr.Hayri Çoşkun ziyareti"
-excerpt: ""
+excerpt: "AİBÜ 'nün yeni Rektörü Prof.Dr. Hayri Çoşkun ile ilk toplantımızda tanışarak derneğimizden, çalışmalarımızdan bahsederek fikir alış verişinde bulunuldu."
 header:
   teaser: "/assets/images/posts/4.jpeg"
   og_image: /assets/images/posts/4.jpeg

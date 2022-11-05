@@ -1,6 +1,6 @@
 ---
 title: "Ahmet Baysal Ziyareti"
-excerpt: ""
+excerpt: "İBUMED Kuruluşu için ilk toplantı yapılarak tüzük, görev dağılımı, faaliyet planlamaları ile ilgili fikir alış verişi yapılarak kuruluş çalışmalarına start verildi."
 header:
   teaser: "/assets/images/posts/1.jpeg"
   og_image: /assets/images/posts/1.jpeg

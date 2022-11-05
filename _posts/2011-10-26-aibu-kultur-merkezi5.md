@@ -1,6 +1,6 @@
 ---
 title: "AİBÜ Kültür Merkezi"
-excerpt: ""
+excerpt: "Abant İzzet Baysal Üniversitesi Mezunları Derneği tarafından düzenlenen 1.AİBÜ Kariyer Günleri AİBÜ Kültür Merkezi Pembe Salonda yapıldı."
 header:
   teaser: "/assets/images/posts/14.jpeg"
   og_image: /assets/images/posts/14.jpeg

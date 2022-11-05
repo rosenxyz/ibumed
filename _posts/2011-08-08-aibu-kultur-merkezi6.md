@@ -1,6 +1,6 @@
 ---
 title: "AİBÜ Kültür Merkezi"
-excerpt: ""
+excerpt: "AİBÜ Kültür Merkezinde iftar buluşması. İzzet Baysal Vakfı Başkanı Ahmet BAYSAL ile iftar."
 header:
   teaser: "/assets/images/posts/13.jpeg"
   og_image: /assets/images/posts/13.jpeg

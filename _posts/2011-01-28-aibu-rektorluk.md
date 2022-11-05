@@ -1,6 +1,6 @@
 ---
 title: "AİBÜ Rektörlük"
-excerpt: ""
+excerpt: "Abant İzzet Baysal Üniversitesi Mezunları Derneği ( İBUMED ) yeni Yönetim Kurulu olarak Rektörümüz Prof.Dr. Hayri ÇOŞKUN ve İzzet Baysal Vakfı Genel Sekreteri Mustafa YAMAN’ı ziyaret ederek yeni dönem çalışmaları istişare edildi."
 header:
   teaser: "/assets/images/posts/10.jpeg"
   og_image: /assets/images/posts/10.jpeg
