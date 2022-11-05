@@ -17,15 +17,15 @@ header:
 
 <!-- modify this form HTML and place wherever you want your form -->
 <form
-  action="https://formspree.io/f/mayklgll"
+  action="https://formspree.io/f/mgeqpjjj"
   method="POST"
 >
   <label>
-    Your email:
+    Email Adresiniz:
     <input type="email" name="email">
   </label>
   <label>
-    Your message:
+    Mesajınız:
     <textarea name="message"></textarea>
   </label>
   <!-- your other form fields go here -->
