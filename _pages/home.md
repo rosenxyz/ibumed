@@ -36,10 +36,20 @@ feature_row:
     excerpt: "Bir AİBU öğrencisi olarak, İBUMED bursundan faydalanmak için Bursiyer Başvuru Formu'nu doldurup bize iletebilirsin."
     url: "/assets/docs/ibumed_burs_basvuru_formu.pdf"
     btn_class: "btn--primary"
-    btn_label: "Başvuru Formunu İndir"      
+    btn_label: "Başvuru Formunu İndir"    
+feature_row2:
+  - image_path: /assets/images/izzet-baysal.jpeg
+    alt: "izzet baysal"
+    title: "Saygı ve Özlemle"
+    excerpt: "1907 yılında Bolu'da dünyaya geldi. İlk ve orta öğrenimini Bolu'da, yüksek öğrenimini İstanbul Güzel Sanatlar Akademisi'nde Mimar olarak tamamladı. Yıllarca İstanbul'da en fazla gelir vergisi veren ilk on kişi arasında yer aldı. 'En büyük eserimdir' dediği İzzet Baysal Vakfı'nı, vergisi ödenmiş kazançlarından tahsis ederek 1987 yılında kurdu."
+    url: "https://izzetbaysalvakfi.org.tr/izzet-baysal/hayati"
+    btn_label: "Hakkında"
+    btn_class: "btn--primary"  
 ---
 
 {% include feature_row %}
+
+{% include feature_row id="feature_row2" type="left" %}
 
 ## Güncel Haberler
 
