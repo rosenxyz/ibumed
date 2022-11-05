@@ -14,6 +14,11 @@ header:
 
 ## İBUMED Yeni Yönetim Kurulu:
 
+
+<div class="notice--success" markdown="1">
+
+<h4 class="no_toc"><i class="fas fa-lightbulb"></i> İBUMED Yeni Kurul Üyeleri:</h4>
+
 * Nihal Öğten (Başkan)
 * Prof. Dr. Cevher Altuğ (Başkan Yardımcısı)
 * Doç. Dr. Cengizhan Yıldırım (Sayman
@@ -22,6 +27,12 @@ header:
 * Doç. Dr. Nuriye Özengin (Üye)
 * İlkay Bağatır (Üye)
 
+
+</div>
+
+<div class="notice--warning" markdown="1">
+
+<h4 class="no_toc"><i class="fas fa-lightbulb"></i> İBUMED Önceki Yönetimler</h4>
 
 ### 27.07.2019 – 13.08.2022 Yönetim Kurulu
 
@@ -73,3 +84,5 @@ header:
 * Senem Dursun ( Sayman )
 * Ali Şükrü Keleş ( Üye )
 * Nazmi Bal ( Üye )
+
+</div>
