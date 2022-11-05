@@ -12,4 +12,10 @@ header:
 permalink: /posts/
 layout: posts
 author_profile: false
+sidebar:
+  - title: ""
+    image: "/assets/images/baibu_logo.png"
+    image_alt: "baibu_logo"
+    text: ""
+
 ---

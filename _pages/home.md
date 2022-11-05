@@ -26,18 +26,26 @@ feature_row:
   - image_path: /assets/images/scholarship.jpeg
     alt: "İBUMED burs imkanı"
     title: "Burs Çalışmaları"
-    excerpt: "İBUMED olarak her yıl birçok AİBU öğrencisine burs imkanı sağlıyoruz. AİBÜ Mezunu olarak sen de dikkat ve titizlikle belirlenmiş, gerçek ihtiyaç sahibi bir AİBÜ son sınıf öğrencisine yardım etmek ister misin?"
+    excerpt: "İBUMED olarak her yıl birçok AİBU öğrencisine burs imkanı sağlıyoruz. Sen de dikkat ve titizlikle belirlenmiş, öğrenimini sürdürebilmek için maddi desteğe ihtiyaç duyan BAİBÜ öğrencisine destek olarak geleceğe umut olabilirsin, benim de katkım olsun diyorsan bizimle iletişime geçebilirsin."
     url: "/iletisim/"
     btn_class: "btn--primary"
-    btn_label: "Sorunu Sor"
+    btn_label: "İletişim İçin"
   - image_path: /assets/images/form.jpeg
     alt: "İBUMED Burs Başvuru Formu"
     title: "Burs Başvuru Formu"
-    excerpt: "Bir AİBU öğrencisi olarak, İBUMED bursundan faydalanmak için Bursiyer Başvuru Formu'nu doldurup bize iletebilirsin."
+    excerpt: "Bir AİBU öğrencisi olarak, İBUMED bursundan faydalanmak için Bursiyer Başvuru Formu'nu doldurup bize iletebilirsin. 2018 yılından beri titiz değerlendirmeler ve görüşmeler sonucunda uygun bulunan ihtiyaç sahibi BAİBÜ öğrencilerine burs vermeye devam etmekteyiz."
     url: "/assets/docs/ibumed_burs_basvuru_formu.pdf"
     btn_class: "btn--primary"
     btn_label: "Başvuru Formunu İndir"    
 feature_row2:
+  - image_path: /assets/images/izzet-baysal.jpeg
+    alt: "izzet baysal"
+    title: "Saygı ve Özlemle"
+    excerpt: "1907 yılında Bolu'da dünyaya geldi. İlk ve orta öğrenimini Bolu'da, yüksek öğrenimini İstanbul Güzel Sanatlar Akademisi'nde Mimar olarak tamamladı. Yıllarca İstanbul'da en fazla gelir vergisi veren ilk on kişi arasında yer aldı. 'En büyük eserimdir' dediği İzzet Baysal Vakfı'nı, vergisi ödenmiş kazançlarından tahsis ederek 1987 yılında kurdu."
+    url: "https://izzetbaysalvakfi.org.tr/izzet-baysal/hayati"
+    btn_label: "Hakkında"
+    btn_class: "btn--primary"  
+feature_row3:
   - image_path: /assets/images/izzet-baysal.jpeg
     alt: "izzet baysal"
     title: "Saygı ve Özlemle"
@@ -50,6 +58,8 @@ feature_row2:
 {% include feature_row %}
 
 {% include feature_row id="feature_row2" type="left" %}
+<!-- {% include feature_row id="feature_row2" type="center" %}
+{% include feature_row id="feature_row2" type="right" %} -->
 
 ## Güncel Haberler
 
