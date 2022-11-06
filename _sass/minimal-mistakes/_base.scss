@@ -239,6 +239,59 @@ figure {
       width: 100%;
     }
   }
+
+  &.fourth {
+    > a,
+    > img {
+      @include breakpoint($small) {
+        width: calc(25% - 0.5em);
+      }
+    }
+
+    figcaption {
+      width: 100%;
+    }
+  }
+
+  &.fifth {
+    > a,
+    > img {
+      @include breakpoint($small) {
+        width: calc(20% - 0.5em);
+      }
+    }
+
+    figcaption {
+      width: 100%;
+    }
+  }
+
+  &.sixth {
+    > a,
+    > img {
+      @include breakpoint($small) {
+        width: calc(16.6666% - 0.5em);
+      }
+    }
+
+    figcaption {
+      width: 100%;
+    }
+  }
+
+  &.eight {
+    > a,
+    > img {
+      @include breakpoint($small) {
+        width: calc(12.5% - 0.5em);
+      }
+    }
+
+    figcaption {
+      width: 100%;
+    }
+  }
+
 }
 
 /* Figure captions */

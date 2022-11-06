@@ -11,6 +11,14 @@
     {% assign gallery_layout = 'half' %}
   {% elsif gallery.size >= 3 %}
     {% assign gallery_layout = 'third' %}
+  {% elsif gallery.size >= 4 %}
+    {% assign gallery_layout = 'fourth' %}
+  {% elsif gallery.size >= 5 %}
+    {% assign gallery_layout = 'fifth' %}
+  {% elsif gallery.size >= 6 %}
+    {% assign gallery_layout = 'sixth' %}
+  {% elsif gallery.size >= 8 %}
+    {% assign gallery_layout = 'sixth' %}
   {% else %}
     {% assign gallery_layout = '' %}
   {% endif %}

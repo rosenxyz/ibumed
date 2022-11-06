@@ -18,5 +18,6 @@ sidebar:
     image: "/assets/images/baibu_logo.png"
     image_alt: "baibu_logo"
     text: ""
+    nav: "docs"
 
 ---

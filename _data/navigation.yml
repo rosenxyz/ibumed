@@ -11,3 +11,13 @@ main:
     url: /yonetim/
   - title: "İletişim"
     url: /iletisim/
+
+
+docs:
+  - title: Fotoğraf Albümü
+    #url: /album/#2012-yılına-ait-fotoğraflarımız
+    children:
+      - title: "Geçmiş Yıllara Ait Fotoğraflar"
+        url: /album/
+
+# https://mmistakes.github.io/minimal-mistakes/docs/layouts/#custom-sidebar-navigation-menu
