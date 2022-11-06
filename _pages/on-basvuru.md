@@ -10,8 +10,17 @@ header:
   #overlay_filter: rgba(13, 180, 185, 0.5)
   #overlay_filter: rgba(27, 163, 156, 0.9)
   overlay_filter: rgba(4, 147, 114, 0.9)
+feature_row:
+  - image_path: /assets/images/ibumed-on-uyelik.jpeg
+    alt: "abant izzet baysal üniversitesi"
+    title: "Sen de bir Aibü'lü Olmak İster misin?"
+    excerpt: "Bolu Abant İzzet Baysal Üniversitesi;  evrensel  standartlarda eğitim  öğretim  yaparak insanlığın gelişimine  hizmet  edecek  nitelikli nesiller yetiştirmeyi, ülke  gelişimine katkıda bulunacak bilgi ve teknoloji üretmeyi ve ülkenin ihtiyaç duyduğu toplumsal hizmetleri en iyi şekilde yapmayı kendine görev bilir. Üniversitemiz hakkında daha detaylı bilgi almak için aşağıdaki linki ziyaret edebilirsin."
+    url: "http://www.ibu.edu.tr/tr"
+    btn_label: "Üniversitemiz Hakkında"
+    btn_class: "btn--primary"
+    image_filter: rgba(4, 147, 114, 0.9)
 ---
-
+<!-- {% include feature_row id="feature_row" type="center" %} -->
 <!-- <img src="{{ site.url }}{{ site.baseurl }}/assets/images/ibumed-on-uyelik.jpeg" alt="BAİBÜ Mezunları Derneği (İBUMED) üyelik ön başvuru"> -->
 
 ![BAİBÜ Mezunları Derneği (İBUMED) üyelik ön başvuru](/assets/images/ibumed-on-uyelik.jpeg){: .align-center}

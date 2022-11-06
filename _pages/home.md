@@ -21,21 +21,21 @@ feature_row:
     title: "Hoş Geldiniz"
     excerpt: "Abant İzzet Baysal Üniversitesi Mezunları Derneği İBUMED, 2010 yılından bu güne mezunlar arasında, mezunlar ve öğrenciler arasında kurduğu iletişim ve birliktelik ile faaliyetlerine devam ediyor. Eğer siz de Abant İzzet Baysal Üniversitesi'nin mezunlarından biriyseniz, mutlaka bize katılın!"
     url: "/uyelik/"
-    btn_class: "btn--primary"
-    btn_label: "Üye Ol"
+    btn_class: "btn--inverse"
+    btn_label: "Üye Olmak İçin"
   - image_path: /assets/images/scholarship.jpeg
     alt: "İBUMED burs imkanı"
     title: "Burs Çalışmaları"
     excerpt: "İBUMED olarak her yıl birçok AİBU öğrencisine burs imkanı sağlıyoruz. Sen de dikkat ve titizlikle belirlenmiş, öğrenimini sürdürebilmek için maddi desteğe ihtiyaç duyan BAİBÜ öğrencisine destek olarak geleceğe umut olabilirsin, benim de katkım olsun diyorsan bizimle iletişime geçebilirsin."
     url: "/iletisim/"
-    btn_class: "btn--primary"
+    btn_class: "btn--inverse"
     btn_label: "İletişim İçin"
   - image_path: /assets/images/form.jpeg
     alt: "İBUMED Burs Başvuru Formu"
     title: "Burs Başvuru Formu"
     excerpt: "Bir AİBU öğrencisi olarak, İBUMED bursundan faydalanmak için Bursiyer Başvuru Formu'nu doldurup bize iletebilirsin. 2018 yılından beri titiz değerlendirmeler ve görüşmeler sonucunda uygun bulunan ihtiyaç sahibi BAİBÜ öğrencilerine burs vermeye devam etmekteyiz."
     url: "/assets/docs/ibumed_burs_basvuru_formu.pdf"
-    btn_class: "btn--primary"
+    btn_class: "btn--inverse"
     btn_label: "Başvuru Formunu İndir"    
 feature_row2:
   - image_path: /assets/images/izzet-baysal.jpeg
@@ -44,7 +44,7 @@ feature_row2:
     excerpt: "1907 yılında Bolu'da dünyaya geldi. İlk ve orta öğrenimini Bolu'da, yüksek öğrenimini İstanbul Güzel Sanatlar Akademisi'nde Mimar olarak tamamladı. Yıllarca İstanbul'da en fazla gelir vergisi veren ilk on kişi arasında yer aldı. 'En büyük eserimdir' dediği İzzet Baysal Vakfı'nı, vergisi ödenmiş kazançlarından tahsis ederek 1987 yılında kurdu."
     url: "https://izzetbaysalvakfi.org.tr/izzet-baysal/hayati"
     btn_label: "Hakkında"
-    btn_class: "btn--primary"  
+    btn_class: "btn--inverse"  
 feature_row3:
   - image_path: /assets/images/izzet-baysal.jpeg
     alt: "izzet baysal"
@@ -60,7 +60,7 @@ feature_row4:
     excerpt: "Bolu Abant İzzet Baysal Üniversitesi;  evrensel  standartlarda eğitim  öğretim  yaparak insanlığın gelişimine  hizmet  edecek  nitelikli nesiller yetiştirmeyi, ülke  gelişimine katkıda bulunacak bilgi ve teknoloji üretmeyi ve ülkenin ihtiyaç duyduğu toplumsal hizmetleri en iyi şekilde yapmayı kendine görev bilir. Üniversitemiz hakkında daha detaylı bilgi almak için aşağıdaki linki ziyaret edebilirsin."
     url: "http://www.ibu.edu.tr/tr"
     btn_label: "Üniversitemiz Hakkında"
-    btn_class: "btn--primary"
+    btn_class: "btn--inverse"
     image_filter: rgba(4, 147, 114, 0.9)
 ---
 
