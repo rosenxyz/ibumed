@@ -1,7 +1,7 @@
 ---
 layout: splash
-title: "İBUMED Güncel Blog Yazıları"
-excerpt: "Abant İzzet Baysal Üniversitesi Mezunları Derneği"
+title: "İbumed Güncel Haberler ve Blog Yazıları"
+excerpt: "Abant İzzet Baysal Üniversitesi Mezunları Derneği Haber Portalı"
 header:
   overlay_color: "#5e616c"
   overlay_image: /assets/images/hero_anasayfa.jpeg
@@ -12,6 +12,7 @@ header:
 permalink: /posts/
 layout: posts
 author_profile: false
+#entries_layout: grid
 sidebar:
   - title: ""
     image: "/assets/images/baibu_logo.png"

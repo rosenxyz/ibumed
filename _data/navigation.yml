@@ -1,5 +1,5 @@
 main:
-  - title: "Güncel"
+  - title: "Blog"
     url: /posts/
   - title: "Üyelik"
     url: /uyelik/

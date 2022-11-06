@@ -40,7 +40,7 @@ feature_row:
 feature_row2:
   - image_path: /assets/images/izzet-baysal.jpeg
     alt: "izzet baysal"
-    title: "Saygı ve Özlemle"
+    title: "Saygı ve Özlemle..."
     excerpt: "1907 yılında Bolu'da dünyaya geldi. İlk ve orta öğrenimini Bolu'da, yüksek öğrenimini İstanbul Güzel Sanatlar Akademisi'nde Mimar olarak tamamladı. Yıllarca İstanbul'da en fazla gelir vergisi veren ilk on kişi arasında yer aldı. 'En büyük eserimdir' dediği İzzet Baysal Vakfı'nı, vergisi ödenmiş kazançlarından tahsis ederek 1987 yılında kurdu."
     url: "https://izzetbaysalvakfi.org.tr/izzet-baysal/hayati"
     btn_label: "Hakkında"
@@ -53,11 +53,21 @@ feature_row3:
     url: "https://izzetbaysalvakfi.org.tr/izzet-baysal/hayati"
     btn_label: "Hakkında"
     btn_class: "btn--primary"  
+feature_row4:
+  - image_path: /assets/images/ibu.jpeg
+    alt: "abant izzet baysal üniversitesi"
+    title: "Sen de bir Aibü'lü Olmak İster misin?"
+    excerpt: "Bolu Abant İzzet Baysal Üniversitesi;  evrensel  standartlarda eğitim  öğretim  yaparak insanlığın gelişimine  hizmet  edecek  nitelikli nesiller yetiştirmeyi, ülke  gelişimine katkıda bulunacak bilgi ve teknoloji üretmeyi ve ülkenin ihtiyaç duyduğu toplumsal hizmetleri en iyi şekilde yapmayı kendine görev bilir. Üniversitemiz hakkında daha detaylı bilgi almak için aşağıdaki linki ziyaret edebilirsin."
+    url: "http://www.ibu.edu.tr/tr"
+    btn_label: "Üniversitemiz Hakkında"
+    btn_class: "btn--primary"
+    image_filter: rgba(4, 147, 114, 0.9)
 ---
 
 {% include feature_row %}
 
 {% include feature_row id="feature_row2" type="left" %}
+{% include feature_row id="feature_row4" type="right" %}
 <!-- {% include feature_row id="feature_row2" type="center" %}
 {% include feature_row id="feature_row2" type="right" %} -->
 
@@ -68,3 +78,6 @@ feature_row3:
   {% include archive-single.html type="grid"  %}
 {% endfor %}
 </div>
+
+
+<!-- {% include feature_row id="feature_row4" type="right" %} -->

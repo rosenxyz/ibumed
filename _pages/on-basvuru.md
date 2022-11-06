@@ -1,7 +1,7 @@
 ---
 layout: splash
 permalink: /on-basvuru/
-title: "İBUMED Üyelik Ön Başvuru"
+title: "İbumed Üyelik Ön Başvuru"
 excerpt: "İBUMED'e üye olabilmek için ön başvuru"
 header:
   overlay_color: "#5e616c"
