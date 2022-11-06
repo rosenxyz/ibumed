@@ -20,69 +20,67 @@ header:
 <h4 class="no_toc"><i class="fas fa-lightbulb"></i> İBUMED Yeni Kurul Üyeleri:</h4>
 
 * Nihal Öğten (Başkan)
-* Prof. Dr. Cevher Altuğ (Başkan Yardımcısı)
-* Doç. Dr. Cengizhan Yıldırım (Sayman
+* Cevher Altuğ (Başkan Yardımcısı)
 * Cem Kösemeci (Genel Sekreter)
-* Doç. Dr. Kerim Sözbir (Üye)
-* Doç. Dr. Nuriye Özengin (Üye)
+* Cengizhan Yıldırım (Sayman)
 * İlkay Bağatır (Üye)
+* Nuriye Özengin (Üye)
+* Kerim Sözbir (Üye)
 
 
 </div>
 
 <div class="notice--warning" markdown="1">
-
 <h4 class="no_toc"><i class="fas fa-lightbulb"></i> İBUMED Önceki Yönetimler</h4>
+### 23.08.2019 -29.07.2022 Yönetim Kurulu
 
-### 27.07.2019 – 13.08.2022 Yönetim Kurulu
+* Senem Dursun Onaran (Başkan)
+* Mert Birincioğlu (Genel Sekreter)
+* Nihal Öğten (Sayman)
+* Cevher Altuğ (Üye)
+* Birgül Yılmaz (Üye)
+* Barış Demir (Üye)
+* İlkay Karakılıç (Üye)
 
-* Senem Dursun Onaran ( Başkan )
-* Mert Birincioğlu ( Genel Sekreter )
-* Nihal Öğten ( Sayman )
-* Cevher Altuğ ( Üye )
-* Birgül Yılmaz ( Üye )
-* Barış Demir ( Üye )
-* İlkay Karakılıç ( Üye )
+### 29.07.2016 - 23.08.2019 Yönetim Kurulu
 
-### 29.07.2016 - 27.07.2019 Yönetim Kurulu
-
-* Nihal Öğten: ( Başkan )
-* Mert Birincioğlu: ( Başkan Yardımcısı )
-* Cevher Altuğ: ( Genel Sekreter )
-* İsa Gürel: ( Sayman )
-* Fatih Soyaydın: ( Üye )
-* Zuhal Kılınç: ( Üye )
-* Elçim Badur: ( Üye )
+* Nihal Öğten: (Başkan)
+* Mert Birincioğlu: (Başkan Yardımcısı)
+* Cevher Altuğ: (Genel Sekreter)
+* İsa Gürel: (Sayman)
+* Fatih Soyaydın: (Üye)
+* Zuhal Kılınç: (Üye)
+* Elçim Badur: (Üye)
 
 
-### 27.07.2013 – 29.07.2016 Yönetim Kurulu
+### 28.07.2013 – 29.07.2016 Yönetim Kurulu
 
-* Mert Birincioğlu ( Başkan )
-* Nihal Öğten ( Genel Sekreter )
-* Senem Dursun ( Sayman )
-* Zühal Kılınç ( Üye )
-* Levent Dicle ( Üye )
-* İsa Gürel ( Üye )
-* Volkan Atabek ( Üye )
+* Nihal Öğten (Başkan)
+* Mert Birincioğlu (Başkan Yardımcısı)
+* Ramazan Günoğlu (Genel Sekreter)
+* Senem Dursun (Sayman)
+* Zühal Kılınç (Üye)
+* Fatih Soyaydın (Üye)
+* Elçim Badur (Üye)
 
 ### 19.12.2010 – 27.07.2013 Yönetim Kurulu
 
 * Mert Birincioğlu ( Başkan )
-* Nihal Öğten ( Genel Sekreter )
-* Senem Dursun ( Sayman )
+* Senem Dursun (Başkan Yardımcısı)
+* Nihal Öğten (Genel Sekreter)
+* Levent Dicle (Sayman)
 * Zühal Kılınç ( Üye )
-* Levent Dicle ( Üye )
 * İsa Gürel ( Üye )
 * Volkan Atabek ( Üye )
 
 ### Kurucu Yönetim Kurulu
 
-* Metin İstay ( Başkan )
-* Mert Birincioğlu ( Başkan Yardımcısı )
-* Cemile Abdulganioğlu ( Başkan Yardımcısı )
-* Nihal Öğten ( Genel Sekreter )
-* Senem Dursun ( Sayman )
-* Ali Şükrü Keleş ( Üye )
-* Nazmi Bal ( Üye )
+* Metin İstay (Başkan)
+* Mert Birincioğlu (Başkan Yardımcısı)
+* Cemile Abdulganioğlu (Başkan Yardımcısı)
+* Nihal Öğten (Genel Sekreter)
+* Senem Dursun (Sayman)
+* Ali Şükrü Keleş (Üye)
+* Nazmi Bal (Üye)
 
 </div>
