@@ -49,7 +49,7 @@ feature_row3:
   - image_path: /assets/images/ibu2.jpeg
     alt: "ibumed albüm"
     title: "Geçmiş Yıllara Ait Fotoğraflarımız"
-    excerpt: "Derneğimizin kurulduğu günden bu güne anılar biriktiriyoruz. İbumed'in geçmiş yıllara ait fotoğraflarını görüntülemek isterseniz aşağıdaki linki ziyaret edebilirsiniz."
+    excerpt: "Abant İzzet Baysal Üniversitesi Mezunları Derneği olarak kurulduğumuz günden bu güne anılar biriktiriyoruz. İbumed'in geçmiş yıllara ait fotoğraflarını görüntülemek isterseniz aşağıdaki linki ziyaret edebilirsiniz."
     url: "/album/"
     btn_label: "Albümü Görüntüle"
     btn_class: "btn--inverse"  
