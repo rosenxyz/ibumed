@@ -46,13 +46,13 @@ feature_row2:
     btn_label: "Hakkında"
     btn_class: "btn--inverse"  
 feature_row3:
-  - image_path: /assets/images/izzet-baysal.jpeg
-    alt: "izzet baysal"
-    title: "Saygı ve Özlemle"
+  - image_path: /assets/images/ibu2.jpeg
+    alt: "ibumed albüm"
+    title: "Geçmiş Yıllara Ait Fotoğraflarımız"
     excerpt: "1907 yılında Bolu'da dünyaya geldi. İlk ve orta öğrenimini Bolu'da, yüksek öğrenimini İstanbul Güzel Sanatlar Akademisi'nde Mimar olarak tamamladı. Yıllarca İstanbul'da en fazla gelir vergisi veren ilk on kişi arasında yer aldı. 'En büyük eserimdir' dediği İzzet Baysal Vakfı'nı, vergisi ödenmiş kazançlarından tahsis ederek 1987 yılında kurdu."
-    url: "https://izzetbaysalvakfi.org.tr/izzet-baysal/hayati"
-    btn_label: "Hakkında"
-    btn_class: "btn--primary"  
+    url: "/album/"
+    btn_label: "Albümü Görüntüle"
+    btn_class: "btn--inverse"  
 feature_row4:
   - image_path: /assets/images/ibu.jpeg
     alt: "abant izzet baysal üniversitesi"
@@ -68,8 +68,8 @@ feature_row4:
 
 {% include feature_row id="feature_row2" type="left" %}
 {% include feature_row id="feature_row4" type="right" %}
-<!-- {% include feature_row id="feature_row2" type="center" %}
-{% include feature_row id="feature_row2" type="right" %} -->
+{% include feature_row id="feature_row3" type="left" %}
+<!--{% include feature_row id="feature_row2" type="right" %} -->
 
 ## Güncel Haberler
 
