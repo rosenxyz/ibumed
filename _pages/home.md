@@ -49,7 +49,7 @@ feature_row3:
   - image_path: /assets/images/ibu2.jpeg
     alt: "ibumed albüm"
     title: "Geçmiş Yıllara Ait Fotoğraflarımız"
-    excerpt: "1907 yılında Bolu'da dünyaya geldi. İlk ve orta öğrenimini Bolu'da, yüksek öğrenimini İstanbul Güzel Sanatlar Akademisi'nde Mimar olarak tamamladı. Yıllarca İstanbul'da en fazla gelir vergisi veren ilk on kişi arasında yer aldı. 'En büyük eserimdir' dediği İzzet Baysal Vakfı'nı, vergisi ödenmiş kazançlarından tahsis ederek 1987 yılında kurdu."
+    excerpt: "Derneğimizin kurulduğu günden bu güne anılar biriktiriyoruz. İbumed'in geçmiş yıllara ait fotoğraflarını görüntülemek isterseniz aşağıdaki linki ziyaret edebilirsiniz."
     url: "/album/"
     btn_label: "Albümü Görüntüle"
     btn_class: "btn--inverse"  
