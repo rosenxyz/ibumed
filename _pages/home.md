@@ -26,7 +26,7 @@ feature_row:
   - image_path: /assets/images/scholarship.jpeg
     alt: "BAİBÜ burs imkanı"
     title: "Burs Çalışmaları"
-    excerpt: "BAİBÜ olarak her yıl birçok AİBU öğrencisine burs imkanı sağlıyoruz. Sen de dikkat ve titizlikle belirlenmiş, öğrenimini sürdürebilmek için maddi desteğe ihtiyaç duyan BAİBÜ öğrencisine destek olarak geleceğe umut olabilirsin, benim de katkım olsun diyorsan bizimle iletişime geçebilirsin."
+    excerpt: "İbumed olarak her yıl birçok AİBU öğrencisine burs imkanı sağlıyoruz. Sen de dikkat ve titizlikle belirlenmiş, öğrenimini sürdürebilmek için maddi desteğe ihtiyaç duyan BAİBÜ öğrencisine destek olarak geleceğe umut olabilirsin, benim de katkım olsun diyorsan bizimle iletişime geçebilirsin."
     url: "/iletisim/"
     btn_class: "btn--inverse"
     btn_label: "İletişim İçin"
