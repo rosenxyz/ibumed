@@ -26,14 +26,14 @@ feature_row:
   - image_path: /assets/images/scholarship.jpeg
     alt: "BAİBÜ burs imkanı"
     title: "Burs Çalışmaları"
-    excerpt: "İbumed olarak her yıl birçok AİBU öğrencisine burs imkanı sağlıyoruz. Sen de dikkat ve titizlikle belirlenmiş, öğrenimini sürdürebilmek için maddi desteğe ihtiyaç duyan BAİBÜ öğrencisine destek olarak geleceğe umut olabilirsin, benim de katkım olsun diyorsan bizimle iletişime geçebilirsin."
+    excerpt: "İbumed olarak her yıl birçok BAİBÜ öğrencisine burs imkanı sağlıyoruz. Sen de dikkat ve titizlikle belirlenmiş, öğrenimini sürdürebilmek için maddi desteğe ihtiyaç duyan BAİBÜ öğrencisine destek olarak geleceğe umut olabilirsin, benim de katkım olsun diyorsan bizimle iletişime geçebilirsin."
     url: "/iletisim/"
     btn_class: "btn--inverse"
     btn_label: "İletişim İçin"
   - image_path: /assets/images/form.jpeg
     alt: "BAİBÜ Burs Başvuru Formu"
     title: "Burs Başvuru Formu"
-    excerpt: "Bir AİBU öğrencisi olarak, BAİBÜ bursundan faydalanmak için Bursiyer Başvuru Formu'nu doldurup bize iletebilirsin. 2018 yılından beri titiz değerlendirmeler ve görüşmeler sonucunda uygun bulunan ihtiyaç sahibi BAİBÜ öğrencilerine burs vermeye devam etmekteyiz."
+    excerpt: "Bir BAİBÜ öğrencisi olarak, İbumed bursundan faydalanmak için Bursiyer Başvuru Formu'nu doldurup bize iletebilirsin. 2018 yılından beri titiz değerlendirmeler ve görüşmeler sonucunda uygun bulunan ihtiyaç sahibi BAİBÜ öğrencilerine burs vermeye devam etmekteyiz."
     url: "/assets/docs/ibumed_burs_basvuru_formu.pdf"
     btn_class: "btn--inverse"
     btn_label: "Başvuru Formunu İndir"    
@@ -56,7 +56,7 @@ feature_row3:
 feature_row4:
   - image_path: /assets/images/ibu.jpeg
     alt: "abant izzet baysal üniversitesi"
-    title: "Sen de bir Aibü'lü Olmak İster misin?"
+    title: "Sen de bir BAİBÜ'lü Olmak İster misin?"
     excerpt: "Bolu Abant İzzet Baysal Üniversitesi;  evrensel  standartlarda eğitim  öğretim  yaparak insanlığın gelişimine  hizmet  edecek  nitelikli nesiller yetiştirmeyi, ülke  gelişimine katkıda bulunacak bilgi ve teknoloji üretmeyi ve ülkenin ihtiyaç duyduğu toplumsal hizmetleri en iyi şekilde yapmayı kendine görev bilir. Üniversitemiz hakkında daha detaylı bilgi almak için aşağıdaki linki ziyaret edebilirsin."
     url: "http://www.ibu.edu.tr/tr"
     btn_label: "Üniversitemiz Hakkında"
