@@ -14,10 +14,12 @@ main:
 
 
 docs:
-  - title: Fotoğraf Albümü
+  - title: "İbumed Hakkında"
     #url: /album/#2012-yılına-ait-fotoğraflarımız
     children:
-      - title: "Geçmiş Yıllara Ait Fotoğraflar"
+      - title: "- Geçmiş Yıllara Ait Fotoğraflar"
         url: /album/
+      - title: "- Basında Çıkan Haberler"
+        url: /media/
 
 # https://mmistakes.github.io/minimal-mistakes/docs/layouts/#custom-sidebar-navigation-menu
