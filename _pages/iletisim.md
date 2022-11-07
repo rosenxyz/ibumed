@@ -12,7 +12,7 @@ header:
   overlay_filter: rgba(4, 147, 114, 0.9)
 ---
 
-**E-Posta (Genel):**	iletisim [at] ibumed.org
+<!-- **E-Posta (Genel):**	iletisim [at] ibumed.org -->
 
 
 <!-- modify this form HTML and place wherever you want your form -->
