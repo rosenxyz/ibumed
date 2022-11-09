@@ -62,6 +62,15 @@ feature_row4:
     btn_label: "Üniversitemiz Hakkında"
     btn_class: "btn--inverse"
     image_filter: rgba(4, 147, 114, 0.9)
+feature_row5:
+  - image_path: /assets/images/media.jpeg
+    alt: "İbumed Hakkında Basında Çıkan Haberler"
+    title: "İbumed Hakkında Basında Çıkan Haberler"
+    excerpt: "Bolu Abant İzzet Baysal Üniversitesi Mezunları Derneği'nin basında yer alan haberlerini takip etmek için aşağıdaki linki ziyaret edebilirsiniz. "
+    url: "/media"
+    btn_label: "İbumed Basında"
+    btn_class: "btn--inverse"
+    image_filter: rgba(4, 147, 114, 0.9)
 ---
 
 {% include feature_row %}
@@ -80,4 +89,4 @@ feature_row4:
 </div>
 
 
-<!-- {% include feature_row id="feature_row4" type="right" %} -->
+{% include feature_row id="feature_row5" type="center" %}
