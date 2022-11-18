@@ -46,7 +46,7 @@ feature_row2:
     btn_label: "Hakkında"
     btn_class: "btn--inverse"  
 feature_row3:
-  - image_path: /assets/images/ibu2.jpeg
+  - image_path: /assets/images/ibu2.webp
     alt: "ibumed albüm"
     title: "Geçmiş Yıllara Ait Fotoğraflarımız"
     excerpt: "Abant İzzet Baysal Üniversitesi Mezunları Derneği olarak kurulduğumuz günden bu güne anılar biriktiriyoruz. İbumed'in geçmiş yıllara ait fotoğraflarını görüntülemek isterseniz aşağıdaki linki ziyaret edebilirsiniz."
@@ -54,7 +54,7 @@ feature_row3:
     btn_label: "Albümü Görüntüle"
     btn_class: "btn--inverse"  
 feature_row4:
-  - image_path: /assets/images/ibu.jpeg
+  - image_path: /assets/images/ibu.webp
     alt: "abant izzet baysal üniversitesi"
     title: "Sen de bir BAİBÜ'lü Olmak İster misin?"
     excerpt: "Bolu Abant İzzet Baysal Üniversitesi;  evrensel  standartlarda eğitim  öğretim  yaparak insanlığın gelişimine  hizmet  edecek  nitelikli nesiller yetiştirmeyi, ülke  gelişimine katkıda bulunacak bilgi ve teknoloji üretmeyi ve ülkenin ihtiyaç duyduğu toplumsal hizmetleri en iyi şekilde yapmayı kendine görev bilir. Üniversitemiz hakkında daha detaylı bilgi almak için aşağıdaki linki ziyaret edebilirsin."
