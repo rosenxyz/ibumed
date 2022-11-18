@@ -38,7 +38,7 @@ feature_row:
     btn_class: "btn--inverse"
     btn_label: "Başvuru Formunu İndir"    
 feature_row2:
-  - image_path: /assets/images/izzet-baysal.jpeg
+  - image_path: /assets/images/izzet-baysal.webp
     alt: "izzet baysal"
     title: "Saygı ve Özlemle..."
     excerpt: "1907 yılında Bolu'da dünyaya geldi. İlk ve orta öğrenimini Bolu'da, yüksek öğrenimini İstanbul Güzel Sanatlar Akademisi'nde Mimar olarak tamamladı. Yıllarca İstanbul'da en fazla gelir vergisi veren ilk on kişi arasında yer aldı. 'En büyük eserimdir' dediği İzzet Baysal Vakfı'nı, vergisi ödenmiş kazançlarından tahsis ederek 1987 yılında kurdu."

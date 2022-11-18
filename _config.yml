@@ -18,9 +18,9 @@ name                     : &name "H. Celik" # &name is a YAML anchor which can b
 description              : &description "A flexible Jekyll theme for your blog or site with a minimalist aesthetic."
 url                      : #https://mmistakes.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog" /minimal-mistakes
-repository               : 
+repository               :
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : /assets/images/ibumed_logo.png # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo                     : /assets/images/ibumed_logo.webp # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
