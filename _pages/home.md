@@ -33,7 +33,7 @@ feature_row:
   - image_path: /assets/images/form.jpeg
     alt: "BAİBÜ Burs Başvuru Formu"
     title: "Burs Başvuru Formu"
-    excerpt: "Bir BAİBÜ öğrencisi olarak, İbumed bursundan faydalanmak için Bursiyer Başvuru Formu'nu doldurup bize iletebilirsin. 2018 yılından beri titiz değerlendirmeler ve görüşmeler sonucunda uygun bulunan ihtiyaç sahibi BAİBÜ öğrencilerine burs vermeye devam etmekteyiz."
+    excerpt: "Bir BAİBÜ öğrencisi olarak, İbumed bursundan faydalanmak için Başvuru Formu'nu doldurup **ibumed@ibu.edu.tr** adresi üzerinden bize iletebilirsiniz. Titiz değerlendirmeler ve görüşmeler sonucunda uygun bulunan ihtiyaç sahibi BAİBÜ öğrencilerine burs vermeye devam etmekteyiz."
     url: "/assets/docs/ibumed-burs-basvuru-formu-2022-2023.pdf"
     btn_class: "btn--inverse"
     btn_label: "Başvuru Formunu İndir"    
