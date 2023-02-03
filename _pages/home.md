@@ -13,7 +13,7 @@ header:
     - label: "Üye Ol"
       url: "/uyelik/"
 excerpt: >
-  Abant İzzet Baysal Üniversitesi Mezunları Derneği Resmi Web Sitesidir. İzzet Baysal’ın eğitim dünyasında açtığı yolda ilerleyerek, üniversitemizin kuruluşundan itibaren tüm mezunlarına ulaşmayı ve mezunlar arasında iletişim ve beraberliği sağlamayı hedefliyoruz. Seni de aramızda görmek isteriz.<br />
+  Abant İzzet Baysal Üniversitesi Mezunları Derneği Resmî Web Sitesidir. İzzet Baysal’ın eğitim dünyasında açtığı yolda ilerleyerek, üniversitemizin kuruluşundan itibaren tüm mezunlarına ulaşmayı ve mezunlar arasında iletişim ve beraberliği sağlamayı hedefliyoruz. Seni de aramızda görmek isteriz.<br />
 
 feature_row:
   - image_path: /assets/images/students.jpeg
