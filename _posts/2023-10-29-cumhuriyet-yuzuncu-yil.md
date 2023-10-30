@@ -18,5 +18,5 @@ tags:
 
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/posts/2023-10-29-cumhuriyet-yuzuncu-yil/cumhuriyet.png" alt="IBUMED Cumhuriyetimizin 100. yıl kutlaması">
 
-
+Cumhuriyetimizin 100. yılı kutlu olsun
 
