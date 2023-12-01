@@ -2,8 +2,8 @@
 title: "Kalite Öğrenci Çalıştayı"
 excerpt: "..."
 header:
-teaser: "/assets/images/posts/2023-12-01-ogrenci-calistayi/ogrenci-calistayi.png"
-og_image: /assets/images/posts/2023-12-01-ogrenci-calistayi/ogrenci-calistayi.png
+  teaser: "/assets/images/posts/2023-12-01-ogrenci-calistayi/ogrenci-calistayi.png"
+  og_image: /assets/images/posts/2023-12-01-ogrenci-calistayi/ogrenci-calistayi.png
   overlay_color: "#5e616c"
   overlay_image: /assets/images/hero_anasayfa.jpeg
   overlay_filter: rgba(4, 147, 114, 0.9)
