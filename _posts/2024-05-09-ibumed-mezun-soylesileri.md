@@ -1,6 +1,6 @@
 ---
 title: "BAİBÜ Mezun Söyleşileri"
-excerpt: "İbumed Mezun Söyleşileri"
+excerpt: "İktisadi ve İdari Bilimler Fakültesi Mezun Söyleşileri"
 header:
   teaser: "/assets/images/posts/2024-05-09-ibumed-mezun-soylesileri/mezun-soylesileri.png"
   og_image: /assets/images/posts/2024-05-09-ibumed-mezun-soylesileri/mezun-soylesileri.png
