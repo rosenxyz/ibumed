@@ -14,6 +14,7 @@ header:
 
 <!-- **E-Posta (Genel):**	iletisim [at] ibumed.org -->
 
+**E-Posta (Genel):**	ibumed [at] ibu.edu.tr
 
 <!-- modify this form HTML and place wherever you want your form -->
 <form
