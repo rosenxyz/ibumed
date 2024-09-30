@@ -33,7 +33,7 @@ feature_row:
   - image_path: /assets/images/form.jpeg
     alt: "BAİBÜ Burs Başvuru Formu"
     title: "Burs Başvuru Formu"
-    excerpt: "Bir BAİBÜ öğrencisi olarak, İbumed bursundan faydalanmak için Başvuru Formu'nu doldurup **ibumed@ibu.edu.tr** adresi üzerinden bize iletebilirsiniz. Titiz değerlendirmeler ve görüşmeler sonucunda uygun bulunan ihtiyaç sahibi BAİBÜ öğrencilerine burs vermeye devam etmekteyiz."
+    excerpt: "Bir BAIBÜ öğrencisi olarak , İBUMED bursundan faydalanmak için başvuru formunu doldurup bize gönderebilirsiniz. Titiz değerlendirmeler sonucunda ihtiyaç sahibi öğrencilerle yüz yüze görüşmeler yapılacaktır."
     url: "https://docs.google.com/forms/d/e/1FAIpQLSfHP2-t007BFfYXN-TJr_oHGZ-91dkYQjRrOJPP2dTZ4sIXTg/viewform?usp=sf_link"
     btn_class: "btn--inverse"
     btn_label: "Başvuru Formunu Doldur"    
