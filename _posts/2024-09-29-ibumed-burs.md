@@ -18,6 +18,6 @@ tags:
 
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/posts/2024-09-29-ibumed-burs/2024-09-29-ibumed-burs.jpeg" alt="BAİBÜ Mezunları Derneği (İBUMED) burslar">
 
-IBUMED 2024-2025 Eğitim Öğretim Yılı Burs Duyurusu.
+İBUMED 2024-2025 Eğitim Öğretim Yılı Burs Duyurusu.
 
 Başvuru formuna ulaşmak için [bu](https://docs.google.com/forms/d/e/1FAIpQLSfHP2-t007BFfYXN-TJr_oHGZ-91dkYQjRrOJPP2dTZ4sIXTg/viewform) linki ziyaret edebilirsiniz. 
