@@ -9,6 +9,8 @@ main:
     url: /about/
   - title: "Yönetim"
     url: /yonetim/
+  - title: "Anlaşmalı Kurumlar"
+    url: /anlasmali-kurumlar/
   - title: "İletişim"
     url: /iletisim/
 

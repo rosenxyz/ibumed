@@ -30,7 +30,7 @@ Sonrasında bu sayfadaki banka bilgileri aracılığı ile aidatlarını tarafı
 
 İBUMED Üyeliği için öncelikle [buradan]({{ site.url }}{{ site.baseurl }}/assets/docs/ibumed_uyelik_beyannamesi _2022.pdf) ulaşabileceğiniz üyelik beyannamesini doldurup imzalayarak **ibumed@ibu.edu.tr** adresine imzalı olarak göndermelisiniz.
 
-Sonra, **10 TL** üyelik bedeli ve **1 TL** 2022 yılı aidatı olmak üzere toplam **11 TL** tutarı, aşağıda bilgileri bulunan derneğimizin resmi banka hesabına göndermelisiniz.
+Sonra, **10 TL** üyelik bedeli ve **1 TL** yıllık aidat olmak üzere toplam **11 TL** tutarı, aşağıda bilgileri bulunan derneğimizin resmi banka hesabına göndermelisiniz.
 
 Üyelik başvurunuz onaylandığında, iletişim bilgilerinizde belirttiğiniz telefon numaranıza bir bilgi SMS'i göndereceğiz.
 
