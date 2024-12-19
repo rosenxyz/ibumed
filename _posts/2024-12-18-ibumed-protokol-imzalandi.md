@@ -2,8 +2,8 @@
 title: "BAİBÜ ve İBUMED Arasında İş Birliği Protokolü İmzalandı"
 excerpt: "Bolu Abant İzzet Baysal Üniversitesi (BAİBÜ) ile Abant İzzet Baysal Üniversitesi Mezunları Derneği (İBUMED), ortak projeleri teşvik etmek ve üniversite ile mezunlar derneği arasında daha güçlü bir bağ oluşturmak amacıyla önemli bir adım attı."
 header:
-  teaser: "/assets/images/posts/2024-12-18-ibumed-protokol-imzalandi/3.png"
-  og_image: /assets/images/posts/2024-12-18-ibumed-protokol-imzalandi/3.png
+  teaser: "/assets/images/posts/2024-12-18-ibumed-protokol-imzalandi/3.jpeg"
+  og_image: /assets/images/posts/2024-12-18-ibumed-protokol-imzalandi/3.jpeg
   overlay_color: "#5e616c"
   overlay_image: /assets/images/hero_anasayfa.jpeg
   overlay_filter: rgba(4, 147, 114, 0.9)
@@ -26,14 +26,14 @@ Törende, İBUMED Başkanı Nihal ÖĞTEN, BAİBÜ Rektörü Prof. Dr. Mustafa A
 Etkinlik, üniversite ve mezunlar derneği arasında iş birliğini güçlendirecek adımların atıldığı bir dönüm noktası olarak değerlendirildi.
 
 
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/posts/2024-12-18-ibumed-protokol-imzalandi/1.png" alt="BAİBÜ ve İBUMED Arasında İş Birliği Protokolü İmzalandı">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/posts/2024-12-18-ibumed-protokol-imzalandi/1.jpeg" alt="BAİBÜ ve İBUMED Arasında İş Birliği Protokolü İmzalandı">
 
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/posts/2024-12-18-ibumed-protokol-imzalandi/2.png" alt="BAİBÜ ve İBUMED Arasında İş Birliği Protokolü İmzalandı">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/posts/2024-12-18-ibumed-protokol-imzalandi/2.jpeg" alt="BAİBÜ ve İBUMED Arasında İş Birliği Protokolü İmzalandı">
 
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/posts/2024-12-18-ibumed-protokol-imzalandi/3.png" alt="BAİBÜ ve İBUMED Arasında İş Birliği Protokolü İmzalandı">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/posts/2024-12-18-ibumed-protokol-imzalandi/3.jpeg" alt="BAİBÜ ve İBUMED Arasında İş Birliği Protokolü İmzalandı">
 
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/posts/2024-12-18-ibumed-protokol-imzalandi/4.png" alt="BAİBÜ ve İBUMED Arasında İş Birliği Protokolü İmzalandı">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/posts/2024-12-18-ibumed-protokol-imzalandi/4.jpeg" alt="BAİBÜ ve İBUMED Arasında İş Birliği Protokolü İmzalandı">
 
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/posts/2024-12-18-ibumed-protokol-imzalandi/5.png" alt="BAİBÜ ve İBUMED Arasında İş Birliği Protokolü İmzalandı">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/posts/2024-12-18-ibumed-protokol-imzalandi/5.jpeg" alt="BAİBÜ ve İBUMED Arasında İş Birliği Protokolü İmzalandı">
 
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/posts/2024-12-18-ibumed-protokol-imzalandi/6.png" alt="BAİBÜ ve İBUMED Arasında İş Birliği Protokolü İmzalandı">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/posts/2024-12-18-ibumed-protokol-imzalandi/6.jpeg" alt="BAİBÜ ve İBUMED Arasında İş Birliği Protokolü İmzalandı">
