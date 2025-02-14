@@ -1,5 +1,5 @@
 ---
-title: "Faaliyet Raporu videosu ( 2010 - 2014 )"
+title: "Faaliyet Raporu videosu (2010 - 2014)"
 excerpt: "İBUMED ile ilgili görüşler ve kuruluşundan itibaren etkinliklerinden kareler"
 header:
   teaser: "/assets/images/ibumed_logo.png"
@@ -15,6 +15,8 @@ tags:
 
 ---
 
-<iframe frameborder="0" width="100%" height="400"
-src="https://www.dailymotion.com/video/x1xr4xn"
-allowfullscreen allow="autoplay"></iframe>
+<iframe markdown="0" src="https://www.dailymotion.com/video/x1xr4xn" width="560" height="315" frameborder="0" scrolling="no" style="display:block; margin: 0 auto;" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+
+<div markdown="0">
+  <iframe src="https://www.dailymotion.com/video/x1xr4xn" width="560" height="315" frameborder="0" scrolling="no" style="display:block; margin: 0 auto;" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+</div>
