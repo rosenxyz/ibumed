@@ -19,3 +19,5 @@ Bolu Abant İzzet Baysal Üniversitesi (BAİBÜ) ve Abant İzzet Baysal Ünivers
 Bu programda, üniversitemiz mezunları, mezun adaylarına kariyer planlama, hedef belirleme ve bu hedeflere ulaşma süreçlerinde rehberlik ederek iş hayatına dair önemli ipuçları sunarak, öğrencilerimize yol gösterecekler.
 
 BAİBÜ öğrencisi olarak BAİBÜ-İBUMED Mentorluk Programı'ndan faydalanmak için başvuru formunu doldurup gönderebilirsiniz.
+
+Başvuru formu için [tıklayınız](https://docs.google.com/forms/d/1jt8gxKFxqwiR-87x3zIN9rXP5mV1mUFDkPMpCDKdL2k/edit).
