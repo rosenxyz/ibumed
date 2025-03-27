@@ -34,6 +34,6 @@ Bu anlamlı program sayesinde öğrenciler, mezunlarımızın tecrübelerinden f
 
 * 📌 Detaylı bilgi ve başvuru için:
 * 👉 www.ibumed.org
-* 📅 Son Başvuru Tarihi: 15 Nisan 2024
+* 📅 Son Başvuru Tarihi: 15 Nisan 2025
 
 Başvuru formu için [tıklayınız](https://docs.google.com/forms/d/1jt8gxKFxqwiR-87x3zIN9rXP5mV1mUFDkPMpCDKdL2k/edit).
