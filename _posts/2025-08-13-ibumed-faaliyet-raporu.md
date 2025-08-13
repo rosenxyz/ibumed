@@ -7,7 +7,7 @@ header:
   overlay_color: "#5e616c"
   overlay_image: /assets/images/hero_anasayfa.jpeg
   overlay_filter: rgba(4, 147, 114, 0.9)
-last_modified_at: 2025-07-15T16:20:02-05:00
+last_modified_at: 2025-08-13T16:20:02-05:00
 categories:
   - blog
 tags:
