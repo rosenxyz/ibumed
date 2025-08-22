@@ -1,5 +1,5 @@
 ---
-title: "6. Olağan Genel Kurulumuz gerçekleşti!"
+title: "Altıncı Olağan Genel Kurulumuz gerçekleşti!"
 excerpt: "15 Ağustos 2025’te BAİBÜ Hukuk Fakültesi’nde yapılan seçimde yeni Yönetim Kurulumuz oy birliği belirlendi"
 header:
   teaser: "/assets/images/posts/2025-08-15-ibumed-6-olagan-genel-kurulu-gerceklesti/1.jpeg"
