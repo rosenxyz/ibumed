@@ -21,17 +21,27 @@ header:
 
 * Nihal Öğten (Başkan)
 * Cevher Altuğ (Başkan Yardımcısı)
+* Nuriye Özengin (Başkan Yardımcısı)
+* Pınar Özayan (Sayman)
+* Cem Kösemeci (Genel Sekreter)
+* İlkay Bağatır (YK Üyesi)
+* Bahar Akbulak (YK Üyesi)
+
+</div>
+
+<div class="notice--warning" markdown="1">
+<h4 class="no_toc"><i class="fas fa-lightbulb"></i> İBUMED Önceki Yönetimler</h4>
+
+### 29.07.2022 - 15.08.2025 Yönetim Kurulu
+
+* Nihal Öğten (Başkan)
+* Cevher Altuğ (Başkan Yardımcısı)
 * Cem Kösemeci (Genel Sekreter)
 * Cengizhan Yıldırım (Sayman)
 * İlkay Bağatır (Üye)
 * Nuriye Özengin (Üye)
 * Kerim Sözbir (Üye)
 
-
-</div>
-
-<div class="notice--warning" markdown="1">
-<h4 class="no_toc"><i class="fas fa-lightbulb"></i> İBUMED Önceki Yönetimler</h4>
 ### 23.08.2019 -29.07.2022 Yönetim Kurulu
 
 * Senem Dursun Onaran (Başkan)
