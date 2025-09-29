@@ -34,7 +34,7 @@ feature_row:
     alt: "BAİBÜ Burs Başvuru Formu"
     title: "Burs Başvuru Formu"
     excerpt: "Bir BAİBÜ öğrencisi olarak , İBUMED bursundan faydalanmak için başvuru formunu doldurup bize gönderebilirsiniz. Titiz değerlendirmeler sonucunda ihtiyaç sahibi öğrencilerle yüz yüze görüşmeler yapılacaktır."
-    url: "https://docs.google.com/forms/d/e/1FAIpQLSfHP2-t007BFfYXN-TJr_oHGZ-91dkYQjRrOJPP2dTZ4sIXTg/viewform?usp=sf_link"
+    url: "https://docs.google.com/forms/d/e/1FAIpQLSdgO1v8FJMPy2y_W17BBrPRNm-tq1PICR17V4pY0CjzJfocLQ/viewform?usp=header"
     btn_class: "btn--inverse"
     btn_label: "Başvuru Formunu Doldur"    
 feature_row2:
