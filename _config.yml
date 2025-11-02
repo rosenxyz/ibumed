@@ -86,6 +86,7 @@ social:
   links: # An array of links to social media profiles
     - "https://twitter.com/ibumed"
     - "https://www.facebook.com/groups/ibumed"
+    - "https://www.instagram.com/ibumedofficial"
 
 # Analytics
 analytics:
@@ -119,6 +120,9 @@ footer:
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook"
       url: "https://www.facebook.com/groups/ibumed"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://www.instagram.com/ibumedofficial"
 
 
 # Reading Files
