@@ -71,10 +71,19 @@ feature_row5:
     btn_label: "İbumed Basında"
     btn_class: "btn--inverse"
     image_filter: rgba(4, 147, 114, 0.9)
+feature_row6:
+  - image_path: /assets/images/ibumed-bagis.png
+    alt: "ibumed bağış"
+    title: "Bağış Sayfası"
+    excerpt: "Bağışlarınız, İBUMED aracılığıyla ihtiyaç sahibi üniversite öğrencilerine burs olarak ulaştırılmaktadır."
+    url: "/bagis-yap/"
+    btn_label: "Bağış Yap"
+    btn_class: "btn--inverse"
 ---
 
 {% include feature_row %}
 
+{% include feature_row id="feature_row6" type="right" %}
 {% include feature_row id="feature_row2" type="left" %}
 {% include feature_row id="feature_row4" type="right" %}
 {% include feature_row id="feature_row3" type="left" %}
