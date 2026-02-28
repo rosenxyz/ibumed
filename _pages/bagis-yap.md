@@ -2,7 +2,7 @@
 layout: splash
 permalink: /bagis-yap/
 title: "Bağış Yapmak İster misiniz?"
-excerpt: "Bağışlarınız, İBUMED aracılığıyla ihtiyaç sahibi üniversite öğrencilerine burs olarak ulaştırılmaktadır."
+excerpt: "Bağışlarınız, İBUMED aracılığıyla ihtiyaç sahibi üniversite öğrencilerine burs olarak ulaştırılmaktadır. Iban No: TR64 0020 6001 7101 4679 4400 01"
 header:
   overlay_color: "#5e616c"
   overlay_image: /assets/images/hero_anasayfa.jpeg
