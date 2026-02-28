@@ -12,7 +12,6 @@ header:
   overlay_filter: rgba(4, 147, 114, 0.9)
 ---
 
-## Bağış Bilgileri:
 
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/bagis-bilgileri.jpeg" alt="İbumed Bağış Bilgileri"><br>
 
@@ -21,4 +20,5 @@ header:
 
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/iban-karekod.jpeg" alt="İbumed Bağış İban Karekod"><br>
 
+![image-center]({{ site.url }}{{ site.baseurl }}/assets/images/iban-karekod.jpeg){: .align-center}
 
