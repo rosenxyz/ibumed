@@ -75,9 +75,9 @@ feature_row6:
   - image_path: /assets/images/ibumed-bagis.png
     alt: "ibumed bağış"
     title: "Bağış Sayfası"
-    excerpt: "Bağışlarınız, İBUMED aracılığıyla ihtiyaç sahibi üniversite öğrencilerine burs olarak ulaştırılmaktadır. Vakfımızın kurucusu merhum İzzet Baysal’ın 'en büyük eserim' dediği gençlerin eğitim yolculuğuna sunduğunuz bu destek, geleceğin aydınlık Türkiye’sine atılmış en kıymetli adımdır. Sizlerin bu dayanışma ruhu sayesinde, maddi imkansızlıklar nedeniyle eğitiminden mahrum kalan hiçbir öğrencimiz kalmayana dek birlikte yürümeye devam ediyoruz."
+    excerpt: "Bağışlarınız, İBUMED aracılığıyla ihtiyaç sahibi üniversite öğrencilerine burs olarak ulaştırılmaktadır. İzzet Baysal'ın emaneti olan gençlerimizin eğitim yolculuğuna sunduğunuz bu destek, geleceğimize bırakılan en kıymetli mirastır. Dayanışma ruhunuzla, hiçbir öğrencimizin imkansızlıklar nedeniyle eğitiminden mahrum kalmamasını sağlıyoruz."
     url: "/bagis-yap/"
-    btn_label: "BAĞIŞ YAPMAK İÇİN TIKLA"
+    btn_label: "BAĞIŞ BİLGİLERİ İÇİN TIKLA"
     btn_class: "btn--inverse"
 ---
 
