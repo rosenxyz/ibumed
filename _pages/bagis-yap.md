@@ -1,7 +1,7 @@
 ---
 layout: splash
 permalink: /bagis-yap/
-title: "Bağış Yap"
+title: "Bağış Yapmak İster misiniz?"
 excerpt: "Bağışlarınız, İBUMED aracılığıyla ihtiyaç sahibi üniversite öğrencilerine burs olarak ulaştırılmaktadır."
 header:
   overlay_color: "#5e616c"
@@ -13,12 +13,7 @@ header:
 ---
 
 
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/bagis-bilgileri.jpeg" alt="İbumed Bağış Bilgileri"><br>
+![İbumed Bağış Bilgileri]({{ site.url }}{{ site.baseurl }}/assets/images/bagis-bilgileri.jpeg){: .align-center}
 
-* Abant İzzet Baysal Üniversitesi Mezunları Derneği
-* **IBAN NO:** TR640020600171014679440001
-
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/iban-karekod.jpeg" alt="İbumed Bağış İban Karekod"><br>
-
-![image-center]({{ site.url }}{{ site.baseurl }}/assets/images/iban-karekod.jpeg){: .align-center}
+![İbumed Bağış İban Karekod]({{ site.url }}{{ site.baseurl }}/assets/images/iban-karekod.jpeg){: .align-center}
 
