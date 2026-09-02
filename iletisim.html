@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>İletişim — İBUMED</title>
+<meta name="description" content="İBUMED ile iletişime geçin.">
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="contact">
+
+<div id="site-header"></div>
+
+<main>
+  <div class="page-hero">
+    <div class="wrap">
+      <div class="eyebrow" data-i18n="contact.kicker">BİZE ULAŞIN</div>
+      <h1 data-i18n="contact.h1">İletişim</h1>
+      <p data-i18n="contact.desc">Sorularınız, önerileriniz ya da işbirliği talepleriniz için bize aşağıdaki formdan ya da e-posta üzerinden ulaşabilirsiniz.</p>
+    </div>
+  </div>
+
+  <section>
+    <div class="wrap two-col">
+      <div class="form-card reveal">
+        <form action="https://formspree.io/f/mgeqpjjj" method="POST">
+          <div class="field">
+            <label data-i18n="contact.field.email">E-posta Adresiniz</label>
+            <input type="email" name="email" placeholder="ornek@eposta.com" required>
+          </div>
+          <div class="field">
+            <label data-i18n="contact.field.message">Mesajınız</label>
+            <textarea name="message" placeholder="Bize iletmek istediğiniz mesajı yazın..." data-en-placeholder="Write the message you'd like to send us..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-block" data-i18n="contact.submit">Mesajı Gönder</button>
+        </form>
+      </div>
+
+      <aside class="info-card-list">
+        <div class="info-card">
+          <h4 data-i18n="contact.side.email.h4">E-posta</h4>
+          <p>ibumed [at] ibu.edu.tr</p>
+        </div>
+        <div class="info-card">
+          <h4 data-i18n="contact.side.branches.h4">Şubeler</h4>
+          <p data-i18n="footer.branches.full">Bolu (Merkez) · İstanbul (Küçükyalı)</p>
+        </div>
+        <div class="info-card">
+          <h4 data-i18n="contact.side.social.h4">Sosyal Medya</h4>
+          <p>
+            <a href="https://twitter.com/ibumed" target="_blank" rel="noopener" style="color:var(--pine-500); font-weight:700;">Twitter</a> ·
+            <a href="https://www.instagram.com/ibumedofficial" target="_blank" rel="noopener" style="color:var(--pine-500); font-weight:700;">Instagram</a> ·
+            <a href="https://www.facebook.com/groups/ibumed" target="_blank" rel="noopener" style="color:var(--pine-500); font-weight:700;">Facebook</a> ·
+            <a href="https://www.linkedin.com/company/i̇bumed/posts/?feedView=all" target="_blank" rel="noopener" style="color:var(--pine-500); font-weight:700;">LinkedIn</a>
+          </p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<div id="site-footer"></div>
+<div id="cookie-consent-root"></div>
+
+<script src="js/data.js"></script>
+<script src="js/i18n.js"></script>
+<script src="js/components.js"></script>
+<script src="js/app.js"></script>
+<script src="js/consent.js"></script>
+<script>
+  renderHeader("contact");
+  renderFooter();
+  renderCookieConsent();
+  applyI18n();
+</script>
+</body>
+</html>

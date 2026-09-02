@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Albüm — İBUMED</title>
+<meta name="description" content="İBUMED ailesi olarak biriktirdiğimiz fotoğraflar — geçmiş yıllara ait anılarımız.">
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="gallery">
+
+<div id="site-header"></div>
+
+<main>
+  <div class="page-hero">
+    <div class="wrap">
+      <div class="eyebrow" data-i18n="gallery.kicker">GEÇMİŞ YILLARA AİT FOTOĞRAFLAR</div>
+      <h1 data-i18n="gallery.h1">İBUMED Albüm</h1>
+      <p data-i18n="gallery.desc">İBUMED ailesi olarak yıllar içinde biriktirdiğimiz fotoğraflarımız — kariyer günlerinden şube açılışlarına, pilav günlerinden anma törenlerine.</p>
+    </div>
+  </div>
+
+  <section>
+    <div class="wrap" id="galleryRoot"></div>
+  </section>
+
+  <section class="band-alt">
+    <div class="wrap">
+      <div class="eyebrow" data-i18n="gallery.media.kicker">MEDYA</div>
+      <div class="section-head">
+        <h2 data-i18n="gallery.media.h2">Basında Biz</h2>
+        <a href="blog.html" class="btn btn-ghost btn-sm" data-i18n="gallery.media.all">Tümünü Gör</a>
+      </div>
+      <div class="post-grid" id="mediaGrid"></div>
+    </div>
+  </section>
+</main>
+
+<div id="site-footer"></div>
+<div id="cookie-consent-root"></div>
+
+<script src="js/data.js"></script>
+<script src="js/gallery-data.js"></script>
+<script src="js/i18n.js"></script>
+<script src="js/components.js"></script>
+<script src="js/app.js"></script>
+<script src="js/consent.js"></script>
+<script>
+  renderHeader("gallery");
+  renderFooter();
+  renderCookieConsent();
+
+  const root = document.getElementById("galleryRoot");
+  const years = Object.keys(IBUMED_GALLERY).sort((a,b) => b - a);
+
+  function drawGallery() {
+    root.innerHTML = years.map(year => `
+      <div class="gallery-year reveal">
+        <h3>${year} <span data-i18n="gallery.yearsuffix">Yılına Ait Fotoğraflarımız</span></h3>
+        <div class="gallery-grid">
+          ${IBUMED_GALLERY[year].map(item => `
+            <figure onclick="openLightbox('${item.image}', '${escapeHTML(item.alt).replace(/'/g, "\\'")}')">
+              <img src="${item.image}" alt="${escapeHTML(item.alt)}" loading="lazy">
+            </figure>
+          `).join("")}
+        </div>
+      </div>
+    `).join("");
+
+    const mediaPosts = getAllPosts().filter(p => p.category === "media").slice(0, 3);
+    document.getElementById("mediaGrid").innerHTML = mediaPosts.length
+      ? mediaPosts.map(postCardHTML).join("")
+      : `<p style="color:var(--ink-500);" data-i18n="gallery.media.empty">Henüz basın haberi eklenmedi.</p>`;
+
+    applyI18n();
+    initReveal();
+  }
+
+  drawGallery();
+  document.addEventListener("ibumed:langchange", drawGallery);
+</script>
+</body>
+</html>

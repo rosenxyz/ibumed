@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Blog — İBUMED</title>
+<meta name="description" content="İBUMED dernek haberleri, etkinlikler ve basında çıkan haberler.">
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="blog">
+
+<div id="site-header"></div>
+
+<main>
+  <div class="page-hero">
+    <div class="wrap">
+      <div class="eyebrow" data-i18n="blog.kicker">DERNEK BLOGU</div>
+      <h1><span data-i18n="blog.h1.1">Haberler, etkinlikler</span><br><span data-i18n="blog.h1.2">ve basında biz.</span></h1>
+      <p data-i18n="blog.desc">Genel kurullardan burs başvurularına, mezun buluşmalarından basın haberlerine — İBUMED'in tüm gündemi burada.</p>
+    </div>
+  </div>
+
+  <section style="padding-top:20px;">
+    <div class="wrap">
+      <div class="blog-toolbar">
+        <div class="filter-group" id="filterGroup">
+          <button class="filter-btn active" data-cat="all" data-i18n="blog.filter.all">Tümü</button>
+          <button class="filter-btn" data-cat="blog" data-i18n="blog.filter.blog">Dernek Haberleri</button>
+          <button class="filter-btn" data-cat="media" data-i18n="blog.filter.media">Basında Biz</button>
+        </div>
+        <div class="search-box">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+          <input type="text" id="searchInput" data-i18n-placeholder="blog.search" placeholder="Yazılarda ara...">
+        </div>
+      </div>
+
+      <div class="post-grid" id="postGrid"></div>
+      <div class="empty-state" id="emptyState" style="display:none;">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+        <p data-i18n="blog.empty">Aramanızla eşleşen bir yazı bulunamadı.</p>
+      </div>
+      <div class="pagination" id="pagination"></div>
+    </div>
+  </section>
+</main>
+
+<div id="site-footer"></div>
+<div id="cookie-consent-root"></div>
+
+<script src="js/data.js"></script>
+<script src="js/i18n.js"></script>
+<script src="js/components.js"></script>
+<script src="js/app.js"></script>
+<script src="js/consent.js"></script>
+<script>
+  renderHeader("blog");
+  renderFooter();
+  renderCookieConsent();
+
+  const allPosts = getAllPosts();
+  const PAGE_SIZE = 10;
+  let currentCat = "all";
+  let currentQuery = "";
+  let currentPage = 1;
+
+  function draw() {
+    const grid = document.getElementById("postGrid");
+    const empty = document.getElementById("emptyState");
+    let filtered = allPosts.filter(p => currentCat === "all" || p.category === currentCat);
+    if (currentQuery.trim()) {
+      const q = currentQuery.trim().toLocaleLowerCase("tr-TR");
+      filtered = filtered.filter(p =>
+        (getLocalizedField(p, "title") || "").toLocaleLowerCase("tr-TR").includes(q) ||
+        (getLocalizedField(p, "excerpt") || "").toLocaleLowerCase("tr-TR").includes(q) ||
+        (p.tags || []).join(" ").toLocaleLowerCase("tr-TR").includes(q)
+      );
+    }
+
+    const totalPages = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE));
+    if (currentPage > totalPages) currentPage = totalPages;
+    const pageItems = filtered.slice((currentPage - 1) * PAGE_SIZE, currentPage * PAGE_SIZE);
+
+    if (filtered.length === 0) {
+      grid.innerHTML = "";
+      empty.style.display = "block";
+    } else {
+      empty.style.display = "none";
+      grid.innerHTML = pageItems.map(postCardHTML).join("");
+    }
+    drawPagination(totalPages);
+    initReveal();
+  }
+
+  function drawPagination(totalPages) {
+    const root = document.getElementById("pagination");
+    if (totalPages <= 1) { root.innerHTML = ""; return; }
+
+    let html = "";
+    html += `<button class="page-btn page-nav" data-page="${currentPage - 1}" ${currentPage === 1 ? "disabled" : ""} aria-label="Önceki">‹</button>`;
+    for (let i = 1; i <= totalPages; i++) {
+      // Küçük ekranlarda ve çok sayfa varsa, aktif sayfa etrafında bir pencere göster
+      const nearActive = Math.abs(i - currentPage) <= 1;
+      const isEdge = i === 1 || i === totalPages;
+      if (nearActive || isEdge) {
+        html += `<button class="page-btn ${i === currentPage ? "active" : ""}" data-page="${i}">${i}</button>`;
+      } else if (i === currentPage - 2 || i === currentPage + 2) {
+        html += `<span class="page-ellipsis">…</span>`;
+      }
+    }
+    html += `<button class="page-btn page-nav" data-page="${currentPage + 1}" ${currentPage === totalPages ? "disabled" : ""} aria-label="Sonraki">›</button>`;
+    root.innerHTML = html;
+
+    root.querySelectorAll("[data-page]").forEach(btn => {
+      btn.addEventListener("click", () => {
+        const p = parseInt(btn.getAttribute("data-page"), 10);
+        if (!p || p < 1 || p > totalPages || btn.disabled) return;
+        currentPage = p;
+        draw();
+        document.querySelector(".blog-toolbar").scrollIntoView({ behavior: "smooth", block: "start" });
+      });
+    });
+  }
+
+  document.getElementById("filterGroup").addEventListener("click", (e) => {
+    const btn = e.target.closest(".filter-btn");
+    if (!btn) return;
+    document.querySelectorAll(".filter-btn").forEach(b => b.classList.remove("active"));
+    btn.classList.add("active");
+    currentCat = btn.getAttribute("data-cat");
+    currentPage = 1;
+    draw();
+  });
+
+  document.getElementById("searchInput").addEventListener("input", (e) => {
+    currentQuery = e.target.value;
+    currentPage = 1;
+    draw();
+  });
+
+  draw();
+  document.addEventListener("ibumed:langchange", draw);
+</script>
+</body>
+</html>

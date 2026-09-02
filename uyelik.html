@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Üyelik — İBUMED</title>
+<meta name="description" content="İBUMED'e üye olabilmek için gerekenler — üyelik beyannamesi ve banka bilgileri.">
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="membership">
+
+<div id="site-header"></div>
+
+<main>
+  <div class="page-hero">
+    <div class="wrap">
+      <div class="eyebrow" data-i18n="membership.kicker">BİZE KATIL</div>
+      <h1 data-i18n="membership.h1">Bize Katıl</h1>
+      <p data-i18n="membership.desc">Eğer siz de Abant İzzet Baysal Üniversitesi'nin mezunlarından biriyseniz ve henüz İBUMED'e üye olmamışsanız — geçmişten bugüne büyüttüğümüz bu aileye mutlaka katılmalısınız!</p>
+    </div>
+  </div>
+
+  <section>
+    <div class="wrap two-col">
+      <div class="prose">
+        <div class="notice notice-warn">
+          <b data-i18n="membership.notice.label">Bilgilendirme:</b> <span data-i18n-html="membership.notice.html">Derneğimize üye olmak isteyen mezunlarımız, öncelikli olarak <a href="on-basvuru.html">ön başvuru sayfasındaki</a> formu doldurmaları gerekmektedir. Sonrasında bu sayfadaki banka bilgileri aracılığı ile aidatlarını tarafımıza gönderebilirler.</span>
+        </div>
+
+        <h2 data-i18n="membership.steps.h2">Üyelik Adımları</h2>
+        <p data-i18n-html="membership.steps.p1.html">İBUMED üyeliği için öncelikle üyelik beyannamesini doldurup imzalayarak <b>ibumed@ibu.edu.tr</b> adresine imzalı olarak göndermelisiniz.</p>
+        <p data-i18n-html="membership.steps.p2.html">Sonra, <b>10 TL</b> üyelik bedeli ve <b>1 TL</b> yıllık aidat olmak üzere toplam <b>11 TL</b> tutarı, aşağıda bilgileri bulunan derneğimizin resmi banka hesabına göndermelisiniz.</p>
+        <p data-i18n="membership.steps.p3">Üyelik başvurunuz onaylandığında, iletişim bilgilerinizde belirttiğiniz telefon numaranıza bir bilgi SMS'i göndereceğiz.</p>
+
+        <a href="assets/docs/ibumed_uyelik_beyannamesi _2022.pdf" target="_blank" class="doc-item" style="margin-top:20px; max-width:360px;">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3v5h5"/><path d="M6 3h8l5 5v13H6z"/></svg>
+          <span data-i18n="membership.download">Üyelik Beyannamesini İndir</span>
+        </a>
+      </div>
+
+      <aside>
+        <div class="bank-box">
+          <h4 style="font-family:var(--font-mono); font-size:13px; text-transform:uppercase; letter-spacing:.06em; color:var(--gold-400); margin-bottom:6px;" data-i18n="membership.bank.h4">Banka Hesap Bilgileri</h4>
+          <div class="bank-row"><span data-i18n="membership.bank.branch">Banka / Şube</span><b>Türkiye Finans Katılım Bankası<br>Küçükyalı Şubesi</b></div>
+          <div class="bank-row"><span data-i18n="membership.bank.name">Ad</span><b>Abant İzzet Baysal Üniversitesi<br>Mezunları Derneği</b></div>
+          <div class="bank-row"><span>IBAN</span><b>TR64 0020 6001 7101 4679 4400 01</b></div>
+        </div>
+        <a href="on-basvuru.html" class="btn btn-primary btn-block" style="margin-top:20px;" data-i18n="membership.bank.cta">Ön Başvuru Formuna Git</a>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<div id="site-footer"></div>
+<div id="cookie-consent-root"></div>
+
+<script src="js/data.js"></script>
+<script src="js/i18n.js"></script>
+<script src="js/components.js"></script>
+<script src="js/app.js"></script>
+<script src="js/consent.js"></script>
+<script>
+  renderHeader("membership");
+  renderFooter();
+  renderCookieConsent();
+</script>
+</body>
+</html>

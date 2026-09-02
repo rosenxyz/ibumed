@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Çerez Politikası — İBUMED</title>
+<meta name="description" content="İBUMED çerez politikası — hangi çerezleri, neden kullanıyoruz ve tercihlerinizi nasıl yönetebilirsiniz.">
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="legal">
+
+<div id="site-header"></div>
+
+<main>
+  <div class="page-hero">
+    <div class="wrap">
+      <div class="eyebrow" data-i18n="legal.kicker">YASAL</div>
+      <h1 data-i18n="cookiepolicy.h1">Çerez Politikası</h1>
+      <p data-i18n="privacy.updated">Son güncelleme: Ağustos 2026</p>
+    </div>
+  </div>
+
+  <section>
+    <div class="wrap" style="max-width:820px;">
+      <div class="prose">
+        <p data-i18n="cookiepolicy.intro">Bu Çerez Politikası, ibumed.org.tr web sitesinde hangi çerezleri, hangi amaçla kullandığımızı ve tercihlerinizi nasıl yönetebileceğinizi açıklar.</p>
+
+        <h2 data-i18n="cookiepolicy.s1.h2">1. Çerez Nedir?</h2>
+        <p data-i18n="cookiepolicy.s1.p1">Çerezler, bir web sitesini ziyaret ettiğinizde tarayıcınıza kaydedilen küçük metin dosyalarıdır. Sitenin düzgün çalışmasını sağlamak, tercihlerinizi hatırlamak ya da site kullanımını analiz etmek gibi amaçlarla kullanılabilirler.</p>
+
+        <h2 data-i18n="cookiepolicy.s2.h2">2. Kullandığımız Çerez Türleri</h2>
+        <p data-i18n="cookiepolicy.s2.p1">Sitemizi ilk ziyaretinizde karşınıza çıkan çerez bildirimi üzerinden aşağıdaki kategoriler için tercihinizi belirleyebilirsiniz. Tercihiniz bu tarayıcıda saklanır ve dilediğiniz zaman değiştirebilirsiniz.</p>
+
+        <div class="info-card" style="margin:20px 0;">
+          <h4 data-i18n="cookie.cat.necessary.t">Gerekli Çerezler</h4>
+          <p data-i18n="cookiepolicy.necessary.desc">Her zaman aktiftir, kapatılamaz. Dil tercihiniz (TR/EN) ve çerez tercihinizin kendisi gibi, sitenin temel işlevleri için zorunlu bilgileri saklar. Bu çerezler olmadan site düzgün çalışmaz.</p>
+        </div>
+        <div class="info-card" style="margin:20px 0;">
+          <h4 data-i18n="cookie.cat.analytics.t">Analitik Çerezler</h4>
+          <p data-i18n="cookiepolicy.analytics.desc">Sitemizin nasıl kullanıldığını anlamamıza yardımcı olacak, sayfa görüntüleme ve trafik gibi istatistikler için kullanılabilir. <b data-i18n="cookiepolicy.currentlyinactive">Bu yazı itibarıyla sitemizde aktif bir analitik/istatistik yazılımı bulunmamaktadır</b>; bu kategori ileride eklenebilecek bir analiz aracı için hazırlanmıştır ve yalnızca onay verirseniz devreye girecektir.</p>
+        </div>
+
+        <h2 data-i18n="cookiepolicy.s3.h2">3. Tercihlerinizi Nasıl Yönetebilirsiniz?</h2>
+        <p data-i18n="cookiepolicy.s3.p1">Sayfanın altındaki "Çerez Ayarları" bağlantısına ya da aşağıdaki düğmeye her zaman tıklayarak tercihlerinizi güncelleyebilirsiniz. Ayrıca çoğu tarayıcı, ayarlar menüsünden çerezleri tamamen engellemenize ya da silmenize de imkân tanır — ancak bu durumda sitenin bazı bölümleri (ör. dil tercihi) beklendiği gibi çalışmayabilir.</p>
+
+        <button class="btn btn-primary" id="openCookieSettingsBtn" style="margin:10px 0 8px;" data-i18n="cookiepolicy.openbtn">Çerez Ayarlarımı Değiştir</button>
+
+        <h2 data-i18n="cookiepolicy.s4.h2">4. İletişim</h2>
+        <p data-i18n-html="cookiepolicy.s4.p1">Bu politika hakkında sorularınız için <a href="mailto:ibumed@ibu.edu.tr">ibumed@ibu.edu.tr</a> adresinden bize ulaşabilirsiniz.</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<div id="site-footer"></div>
+<div id="cookie-consent-root"></div>
+
+<script src="js/data.js"></script>
+<script src="js/i18n.js"></script>
+<script src="js/components.js"></script>
+<script src="js/app.js"></script>
+<script src="js/consent.js"></script>
+<script>
+  renderHeader("");
+  renderFooter();
+  renderCookieConsent();
+  document.getElementById("openCookieSettingsBtn").addEventListener("click", openCookieSettingsModal);
+</script>
+</body>
+</html>
