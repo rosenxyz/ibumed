@@ -244,6 +244,10 @@ section{ padding: 84px 0; }
 .band-pine .eyebrow{ color: var(--gold-400); }
 .band-pine .eyebrow::before{ background: var(--lake-300); }
 
+.join-grid{ display:grid; grid-template-columns: 1.1fr 0.9fr; gap:50px; align-items:center; }
+.board-carousel{ min-height:0; }
+.board-carousel .member-grid{ transition: opacity .5s ease; }
+
 /* =========================================================================
    CARDS: neden İBUMED
    ========================================================================= */
@@ -674,6 +678,7 @@ section{ padding: 84px 0; }
   .post-side{ position:static; flex-direction:row; flex-wrap:wrap; }
   .two-col{ grid-template-columns:1fr; }
   .member-grid{ grid-template-columns: 1fr 1fr; }
+  .join-grid{ grid-template-columns:1fr; gap:36px; }
   .footer-grid{ grid-template-columns: 1fr 1fr; }
   .gallery-grid{ grid-template-columns: repeat(3,1fr); }
 }

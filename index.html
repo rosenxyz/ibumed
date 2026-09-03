@@ -84,7 +84,7 @@
   </section>
 
   <section class="band-pine">
-    <div class="wrap" style="display:grid; grid-template-columns: 1.1fr 0.9fr; gap:50px; align-items:center;">
+    <div class="wrap join-grid">
       <div>
         <div class="eyebrow" data-i18n="home.join.kicker">BİZE KATILIN</div>
         <h2 style="margin-top:14px; font-size:clamp(26px,3.2vw,38px);" data-i18n="home.join.h2">Sen de bir İBUMED'li olmak ister misin?</h2>
@@ -94,7 +94,9 @@
           <a href="uyelik.html" class="btn" style="border:1.5px solid rgba(250,247,239,0.3); color:#fff;" data-i18n="home.join.cta2">Üyelik Şartları</a>
         </div>
       </div>
-      <div class="member-grid" style="grid-template-columns:1fr 1fr;" id="homeBoardGrid"></div>
+      <div class="board-carousel">
+        <div class="member-grid" style="grid-template-columns:1fr 1fr;" id="homeBoardGrid"></div>
+      </div>
     </div>
   </section>
 
@@ -160,9 +162,14 @@
     "Başkan": "role.president", "Başkan Yardımcısı": "role.vp", "Sayman": "role.treasurer",
     "Genel Sekreter": "role.secretary", "YK Üyesi": "role.member", "Üye": "role.member",
   };
-  function drawHomeBoard() {
-    const featured = IBUMED_BOARD.filter(m => ["Başkan", "Başkan Yardımcısı", "Genel Sekreter"].includes(m.roleTr)).slice(0, 4);
-    document.getElementById("homeBoardGrid").innerHTML = featured.map(m => {
+  const HOME_BOARD_SETS = [
+    IBUMED_BOARD.filter(m => ["Başkan", "Başkan Yardımcısı", "Genel Sekreter"].includes(m.roleTr)).slice(0, 4),
+    IBUMED_BOARD.filter(m => !["Başkan", "Başkan Yardımcısı", "Genel Sekreter"].includes(m.roleTr)),
+  ].filter(set => set.length); // boş küme varsa (7'den az üye olursa) atla
+  let homeBoardSetIndex = 0;
+
+  function renderHomeBoardSet(set) {
+    document.getElementById("homeBoardGrid").innerHTML = set.map(m => {
       const roleKey = HOME_BOARD_ROLE_KEY[m.roleTr] || "role.member";
       const primaryLink = (m.links && m.links.find(l => l.label === "LinkedIn")) || (m.links && m.links[0]);
       const nameHtml = primaryLink
@@ -172,7 +179,22 @@
     }).join("");
     applyI18n();
   }
+  function drawHomeBoard() { renderHomeBoardSet(HOME_BOARD_SETS[homeBoardSetIndex]); }
+  // Sabit üye kümeleri arasında yumuşak (crossfade) bir geçişle sürekli döner —
+  // CSS'teki ".board-carousel .member-grid{ transition: opacity .5s ease; }"
+  // kuralıyla eşleşecek şekilde önce görünmez yapılıp yeni küme çizilir, sonra
+  // tekrar görünür kılınır; böylece keskin bir kesme olmaz.
+  function cycleHomeBoard(){
+    const el = document.getElementById("homeBoardGrid");
+    el.style.opacity = "0";
+    setTimeout(() => {
+      homeBoardSetIndex = (homeBoardSetIndex + 1) % HOME_BOARD_SETS.length;
+      renderHomeBoardSet(HOME_BOARD_SETS[homeBoardSetIndex]);
+      el.style.opacity = "1";
+    }, 500);
+  }
   drawHomeBoard();
+  if (HOME_BOARD_SETS.length > 1) setInterval(cycleHomeBoard, 4500);
   document.addEventListener("ibumed:langchange", drawHomeBoard);
 
   function drawHomePosts() {
