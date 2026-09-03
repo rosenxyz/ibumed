@@ -191,10 +191,10 @@
       homeBoardSetIndex = (homeBoardSetIndex + 1) % HOME_BOARD_SETS.length;
       renderHomeBoardSet(HOME_BOARD_SETS[homeBoardSetIndex]);
       el.style.opacity = "1";
-    }, 500);
+    }, 1000);
   }
   drawHomeBoard();
-  if (HOME_BOARD_SETS.length > 1) setInterval(cycleHomeBoard, 4500);
+  if (HOME_BOARD_SETS.length > 1) setInterval(cycleHomeBoard, 7000);
   document.addEventListener("ibumed:langchange", drawHomeBoard);
 
   function drawHomePosts() {
