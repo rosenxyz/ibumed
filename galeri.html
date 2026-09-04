@@ -55,12 +55,17 @@
   const years = Object.keys(IBUMED_GALLERY).sort((a,b) => b - a);
 
   function drawGallery() {
+    // Tüm yıllardaki fotoğrafları tek bir grup olarak topla, böylece lightbox
+    // açıldığında ok tuşlarıyla tüm albüm boyunca gezinilebilir.
+    window.__galleryLightboxItems = years.flatMap(year =>
+      IBUMED_GALLERY[year].map(item => ({ src: item.image, caption: item.alt }))
+    );
     root.innerHTML = years.map(year => `
       <div class="gallery-year reveal">
         <h3>${year} <span data-i18n="gallery.yearsuffix">Yılına Ait Fotoğraflarımız</span></h3>
         <div class="gallery-grid">
           ${IBUMED_GALLERY[year].map(item => `
-            <figure onclick="openLightbox('${item.image}', '${escapeHTML(item.alt).replace(/'/g, "\\'")}')">
+            <figure onclick="openLightbox('${item.image}', '${escapeHTML(item.alt).replace(/'/g, "\\'")}', window.__galleryLightboxItems)">
               <img src="${item.image}" alt="${escapeHTML(item.alt)}" loading="lazy">
             </figure>
           `).join("")}

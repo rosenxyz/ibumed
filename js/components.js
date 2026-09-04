@@ -146,7 +146,9 @@ function renderFooter() {
   </footer>
   <div class="lightbox" id="lightbox">
     <button class="lightbox-close" id="lightboxClose">✕</button>
+    <button class="lightbox-nav lightbox-prev" id="lightboxPrev" aria-label="Önceki">‹</button>
     <img src="" alt="" id="lightboxImg" />
+    <button class="lightbox-nav lightbox-next" id="lightboxNext" aria-label="Sonraki">›</button>
     <div class="lightbox-cap" id="lightboxCap"></div>
   </div>`;
 
@@ -155,6 +157,8 @@ function renderFooter() {
   if (lb && lbClose) {
     lbClose.addEventListener("click", () => lb.classList.remove("open"));
     lb.addEventListener("click", (e) => { if (e.target === lb) lb.classList.remove("open"); });
+    document.getElementById("lightboxPrev").addEventListener("click", (e) => { e.stopPropagation(); lightboxNav(-1); });
+    document.getElementById("lightboxNext").addEventListener("click", (e) => { e.stopPropagation(); lightboxNav(1); });
   }
   const cookieBtn = document.getElementById("footerCookieSettingsBtn");
   if (cookieBtn) {
@@ -166,14 +170,49 @@ function renderFooter() {
   applyI18n();
 }
 
-function openLightbox(src, caption) {
+// Lightbox içinde aynı gruptaki (ör. bir blog yazısındaki tüm görseller ya da
+// albümdeki bir yılın tüm fotoğrafları) görseller arasında ok tuşlarıyla ya
+// da ‹ › düğmeleriyle gezinmeyi sağlar.
+let lightboxGroup = [];
+let lightboxIndex = -1;
+
+function renderLightboxCurrent(){
+  const item = lightboxGroup[lightboxIndex];
+  if (!item) return;
+  document.getElementById("lightboxImg").src = item.src;
+  document.getElementById("lightboxImg").alt = item.caption || "";
+  document.getElementById("lightboxCap").textContent = item.caption || "";
+  const showNav = lightboxGroup.length > 1;
+  document.getElementById("lightboxPrev").style.display = showNav ? "flex" : "none";
+  document.getElementById("lightboxNext").style.display = showNav ? "flex" : "none";
+}
+function lightboxNav(delta){
+  if (lightboxGroup.length < 2) return;
+  lightboxIndex = (lightboxIndex + delta + lightboxGroup.length) % lightboxGroup.length;
+  renderLightboxCurrent();
+}
+document.addEventListener("keydown", (e) => {
   const lb = document.getElementById("lightbox");
-  const img = document.getElementById("lightboxImg");
-  const cap = document.getElementById("lightboxCap");
+  if (!lb || !lb.classList.contains("open")) return;
+  if (e.key === "ArrowRight") lightboxNav(1);
+  else if (e.key === "ArrowLeft") lightboxNav(-1);
+  else if (e.key === "Escape") lb.classList.remove("open");
+});
+
+// src: gösterilecek görsel; caption: alt yazı; group (opsiyonel): aynı
+// serideki tüm {src, caption} nesnelerinin dizisi — verilirse ok tuşu/ok
+// düğmesi navigasyonu aktif olur.
+function openLightbox(src, caption, group) {
+  const lb = document.getElementById("lightbox");
   if (!lb) return;
-  img.src = src;
-  img.alt = caption || "";
-  cap.textContent = caption || "";
+  if (Array.isArray(group) && group.length) {
+    lightboxGroup = group;
+    lightboxIndex = Math.max(0, group.findIndex(g => g.src === src));
+  } else {
+    lightboxGroup = [{ src, caption }];
+    lightboxIndex = 0;
+  }
+  renderLightboxCurrent();
   lb.classList.add("open");
 }
 

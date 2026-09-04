@@ -557,6 +557,18 @@ section{ padding: 84px 0; }
 .lightbox.open{ display:flex; }
 .lightbox img{ max-width: 90vw; max-height: 84vh; border-radius: 8px; object-fit:contain; }
 .lightbox-close{ position:absolute; top:24px; right:28px; width:44px; height:44px; border-radius:50%; background: rgba(255,255,255,0.1); color:#fff; border:1px solid rgba(255,255,255,0.2); font-size:20px; display:flex; align-items:center; justify-content:center; }
+.lightbox-nav{
+  position:absolute; top:50%; transform:translateY(-50%); width:52px; height:52px; border-radius:50%;
+  background: rgba(255,255,255,0.1); color:#fff; border:1px solid rgba(255,255,255,0.2);
+  font-size:28px; line-height:1; display:flex; align-items:center; justify-content:center; z-index:2;
+}
+.lightbox-nav:hover{ background: rgba(255,255,255,0.2); }
+.lightbox-prev{ left:20px; }
+.lightbox-next{ right:20px; }
+@media (max-width:720px){
+  .lightbox-nav{ width:42px; height:42px; font-size:22px; }
+  .lightbox-prev{ left:8px; } .lightbox-next{ right:8px; }
+}
 .lightbox-cap{ position:absolute; bottom:30px; left:0; right:0; text-align:center; color: var(--lake-100); font-size:13.5px; font-family:var(--font-mono); }
 
 /* Partners */
