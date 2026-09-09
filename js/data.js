@@ -15,6 +15,7 @@ const IBUMED_STATIC_POSTS = [
     "dateDisplay": "2 Eylül 2026",
     "readingTime": 1,
     "pinOrder": 1,
+    "author": "H. Çelik",
     "title_en": "20 Years Later in the Same Desks, Just Like the First Day",
     "excerpt_en": "Our alumni gathered in the same lecture hall desks years later — university years were relived once again, this time even more crowded and meaningful.",
     "body_md_en": "20 years later, we gathered in the same lecture hall desks with the excitement of the very first day.\n\nOur alumni who sat in these desks years ago reunited in the same hall today, coming from different cities and professions. The desks were the same, the smiles were the same — only the passing years made this reunion even more precious.\n\nWe thank all our alumni who came together on such a meaningful day.\n\n<div class=\"post-gallery\"><img src=\"assets/images/posts/20-yil-sonra-ayni-siralarda/icerik-1.jpg\" alt=\"\"><img src=\"assets/images/posts/20-yil-sonra-ayni-siralarda/icerik-2.jpg\" alt=\"\"><img src=\"assets/images/posts/20-yil-sonra-ayni-siralarda/icerik-3.jpg\" alt=\"\"></div>\n\nTo view the post on LinkedIn, please [click here](https://www.linkedin.com/posts/cemile-acar-4a65ab71_20-y%C4%B1l-sonra-ayn%C4%B1-s%C4%B1ralarda-ilk-g%C3%BCnk%C3%BC-gibi-activity-7477091868778848257-ttrq?utm_source=share&utm_medium=member_desktop&rcm=ACoAAA5YNfYB2gJVhGLfC9GW5N_dAFh8IRxhFp4).",
