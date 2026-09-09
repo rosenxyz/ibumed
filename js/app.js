@@ -68,11 +68,27 @@ function getAllPosts() {
 // gelir (kendi aralarında en yeniden en eskiye), kalan slotlar en güncel
 // sabitlenmemiş yazılarla doldurulur. En fazla 4 yazı gösterilir (anasayfadaki
 // slot sayısı) — Blog Yayıncısı'ndan bir yazı "sabitlenir" işaretlenebilir.
+// Anasayfada gösterilecek yazıları seçer. Bir yazı 1-4 arası bir "pinOrder"
+// değeriyle belirli bir konuma sabitlenebilir: 1 = üstteki büyük öne çıkan
+// yazı, 2/3/4 = alttaki üçlünün sırasıyla sol/orta/sağ kartı. Sabitlenmemiş
+// slotlar, en güncel sabitlenmemiş yazılarla (tarih sırasına göre) doldurulur.
 function getHomePosts(max = 4) {
   const all = getAllPosts();
-  const pinned = all.filter(p => p.pinned);
-  const rest = all.filter(p => !p.pinned);
-  return [...pinned, ...rest].slice(0, max);
+  const slots = new Array(max).fill(null);
+  const used = new Set();
+  all.forEach(p => {
+    const pos = p.pinOrder;
+    if (pos >= 1 && pos <= max && !slots[pos - 1]) {
+      slots[pos - 1] = p;
+      used.add(p.slug);
+    }
+  });
+  const rest = all.filter(p => !used.has(p.slug));
+  let ri = 0;
+  for (let i = 0; i < max; i++) {
+    if (!slots[i]) slots[i] = rest[ri++] || null;
+  }
+  return slots.filter(Boolean);
 }
 
 function categoryLabel(cat) {
