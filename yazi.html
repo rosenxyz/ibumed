@@ -68,7 +68,7 @@
           </div>
           <div class="post-hero-meta">
             <span class="post-chip" style="position:static; background:var(--pine-500);">${categoryLabel(post.category)}</span>
-            <span class="post-date">${turkishDate(post.date)} · ${post.readingTime || 2} ${t("post.reading")}</span>
+            <span class="post-date">${turkishDate(post.date)} · ${post.readingTime || 2} ${t("post.reading")}${post.author ? ` · ${t("post.by")} ${escapeHTML(post.author)}` : ""}</span>
           </div>
           <h1>${escapeHTML(title)}</h1>
         </div>
@@ -123,14 +123,10 @@
     }
     applyI18n();
     initReveal();
-    // İçerik içindeki görselleri tıklanınca orijinal boyutunda açılacak şekilde işaretle —
-    // aynı yazıdaki tüm görseller tek bir grup olarak verilir, böylece lightbox
-    // açıldığında ok tuşlarıyla/‹ › düğmeleriyle diğer görsellere geçilebilir.
-    const contentImgs = Array.from(document.querySelectorAll(".article-body img"));
-    const lightboxGroupItems = contentImgs.map(img => ({ src: img.src, caption: img.alt || title }));
-    contentImgs.forEach(img => {
+    // İçerik içindeki görselleri tıklanınca orijinal boyutunda açılacak şekilde işaretle
+    document.querySelectorAll(".article-body img").forEach(img => {
       img.classList.add("zoomable-img");
-      img.addEventListener("click", () => openLightbox(img.src, img.alt || title, lightboxGroupItems));
+      img.addEventListener("click", () => openLightbox(img.src, img.alt || title));
     });
   }
 
