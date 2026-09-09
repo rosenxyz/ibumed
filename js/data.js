@@ -1,6 +1,27 @@
 // İBUMED site içerik verisi — İBUMED Blog Yayıncısı ile yönetilir.
 const IBUMED_STATIC_POSTS = [
   {
+    "slug": "test-blog-yazisi",
+    "date": "2026-09-09",
+    "title": "Test Blog Yazısı",
+    "excerpt": "test blog yazısı",
+    "category": "blog",
+    "tags": [
+      "burs"
+    ],
+    "image": "assets/images/posts/test-blog-yazisi/kapak.jpg",
+    "body_md": "Bu, test amaçlı bir blog yazısıdır.\n\n<div class=\"post-gallery\"><img src=\"assets/images/posts/test-blog-yazisi/icerik-1.jpg\" alt=\"\"><img src=\"assets/images/posts/test-blog-yazisi/icerik-2.jpg\" alt=\"\"></div>",
+    "body_html": "<p>Bu, test amaçlı bir blog yazısıdır.</p>\n<div class=\"post-gallery\"><img src=\"assets/images/posts/test-blog-yazisi/icerik-1.jpg\" alt=\"\"><img src=\"assets/images/posts/test-blog-yazisi/icerik-2.jpg\" alt=\"\"></div>\n",
+    "dateDisplay": "9 Eylül 2026",
+    "readingTime": 1,
+    "imageThumb": "assets/images/posts/test-blog-yazisi/kapak-thumb.jpg",
+    "pinOrder": 1,
+    "title_en": "Test Blog Post",
+    "excerpt_en": "test blog post",
+    "body_md_en": "This is a blog post for testing purposes.\n\n<div class=\"post-gallery\"><img src=\"assets/images/posts/test-blog-yazisi/icerik-1.jpg\" alt=\"\"><img src=\"assets/images/posts/test-blog-yazisi/icerik-2.jpg\" alt=\"\"></div>",
+    "body_html_en": "<p>This is a blog post for testing purposes.</p>\n<div class=\"post-gallery\"><img src=\"assets/images/posts/test-blog-yazisi/icerik-1.jpg\" alt=\"\"><img src=\"assets/images/posts/test-blog-yazisi/icerik-2.jpg\" alt=\"\"></div>\n"
+  },
+  {
     "slug": "20-yil-sonra-ayni-siralarda",
     "date": "2026-09-02",
     "title": "20 Yıl Sonra Aynı Sıralarda, İlk Günkü Gibi",
