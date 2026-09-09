@@ -58,16 +58,34 @@ function slugify(str) {
 // yayınlamak/güncellemek için İBUMED Blog Yayıncısı (ayrı, bağımsız bir HTML
 // dosyası) kullanılır — o araç GitHub üzerinden doğrudan bu data.js dosyasına
 // commit atar. Site tarafında ekstra bir depolama katmanına gerek yoktur.
+// Bugünün tarihini (YYYY-MM-DD, yerel saat dilimine göre) döndürür — yazı
+// tarihleriyle basit metin karşılaştırması yapılabilmesi için.
+function todayDateString() {
+  const d = new Date();
+  const y = d.getFullYear();
+  const m = String(d.getMonth() + 1).padStart(2, "0");
+  const day = String(d.getDate()).padStart(2, "0");
+  return `${y}-${m}-${day}`;
+}
+
+// İleri tarihli (henüz gelmemiş) yazılar otomatik olarak "zamanlanmış" kabul
+// edilir: o tarih gelene kadar hiçbir listede görünmez ve doğrudan linkle de
+// açılamaz. Blog Yayıncısı'nda yazı tarihini ileri bir güne ayarlamak,
+// başka bir işlem gerekmeden bu davranışı tetikler.
 function getAllPosts() {
-  const merged = [...IBUMED_STATIC_POSTS];
+  const today = todayDateString();
+  const merged = IBUMED_STATIC_POSTS.filter(p => p.date <= today);
   merged.sort((a, b) => (a.date < b.date ? 1 : a.date > b.date ? -1 : 0));
   return merged;
 }
 
-// Anasayfada gösterilecek yazıları seçer: sabitlenmiş (pinned) yazılar önce
-// gelir (kendi aralarında en yeniden en eskiye), kalan slotlar en güncel
-// sabitlenmemiş yazılarla doldurulur. En fazla 4 yazı gösterilir (anasayfadaki
-// slot sayısı) — Blog Yayıncısı'ndan bir yazı "sabitlenir" işaretlenebilir.
+// Slug ile tek bir yazıyı bulur — zamanlanmış (ileri tarihli) bir yazının
+// linki bilinse bile, tarihi gelene kadar bulunamaz (getAllPosts() ile aynı
+// görünürlük kuralına tabidir).
+function getPostBySlug(slug) {
+  return getAllPosts().find(p => p.slug === slug) || null;
+}
+
 // Anasayfada gösterilecek yazıları seçer. Bir yazı 1-4 arası bir "pinOrder"
 // değeriyle belirli bir konuma sabitlenebilir: 1 = üstteki büyük öne çıkan
 // yazı, 2/3/4 = alttaki üçlünün sırasıyla sol/orta/sağ kartı. Sabitlenmemiş
