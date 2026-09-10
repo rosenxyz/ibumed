@@ -123,10 +123,14 @@
     }
     applyI18n();
     initReveal();
-    // İçerik içindeki görselleri tıklanınca orijinal boyutunda açılacak şekilde işaretle
-    document.querySelectorAll(".article-body img").forEach(img => {
+    // İçerik içindeki görselleri tıklanınca orijinal boyutunda açılacak şekilde işaretle —
+    // aynı yazıdaki tüm görseller tek bir grup olarak verilir, böylece lightbox
+    // açıldığında ok tuşlarıyla/‹ › düğmeleriyle diğer görsellere geçilebilir.
+    const contentImgs = Array.from(document.querySelectorAll(".article-body img"));
+    const lightboxGroupItems = contentImgs.map(img => ({ src: img.src, caption: img.alt || title }));
+    contentImgs.forEach(img => {
       img.classList.add("zoomable-img");
-      img.addEventListener("click", () => openLightbox(img.src, img.alt || title));
+      img.addEventListener("click", () => openLightbox(img.src, img.alt || title, lightboxGroupItems));
     });
   }
 
