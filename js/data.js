@@ -1,29 +1,6 @@
 // İBUMED site içerik verisi — İBUMED Blog Yayıncısı ile yönetilir.
 const IBUMED_STATIC_POSTS = [
   {
-    "slug": "bu-bir-test-yazisidir",
-    "date": "2026-09-13",
-    "title": "Bu Bir Test Yazısıdır.",
-    "excerpt": "Bu bir ibumed test yazısıdır.",
-    "category": "blog",
-    "tags": [
-      "burs",
-      "ibumed blog yazısı"
-    ],
-    "image": "assets/images/posts/bu-bir-test-yazisidir/kapak.jpg",
-    "body_md": "Kampüsümüzün eşsiz doğasını, çam kokulu yollarını ve öğrencilik yıllarımızın unutulmaz anılarını yeniden yaşamak için sabırsızlandığınızı biliyoruz. İBUMED ailesi olarak, bağlarımızı tazelemek ve eski dostlarımızla yeniden kucaklaşmak amacıyla düzenlediğimiz Geleneksel Pilav Günü etkinliğimiz için geri sayım başladı!\n\n\n<div class=\"post-gallery\"><img src=\"assets/images/posts/bu-bir-test-yazisidir/icerik-1.jpg\" alt=\"\"><img src=\"assets/images/posts/bu-bir-test-yazisidir/icerik-2.jpg\" alt=\"\"></div>\n\n![](assets/images/posts/bu-bir-test-yazisidir/icerik-1.jpg)\n\n![](assets/images/posts/bu-bir-test-yazisidir/icerik-2.jpg)",
-    "body_html": "<p>Kampüsümüzün eşsiz doğasını, çam kokulu yollarını ve öğrencilik yıllarımızın unutulmaz anılarını yeniden yaşamak için sabırsızlandığınızı biliyoruz. İBUMED ailesi olarak, bağlarımızı tazelemek ve eski dostlarımızla yeniden kucaklaşmak amacıyla düzenlediğimiz Geleneksel Pilav Günü etkinliğimiz için geri sayım başladı!</p>\n<div class=\"post-gallery\"><img src=\"assets/images/posts/bu-bir-test-yazisidir/icerik-1.jpg\" alt=\"\"><img src=\"assets/images/posts/bu-bir-test-yazisidir/icerik-2.jpg\" alt=\"\"></div>\n<p><img src=\"assets/images/posts/bu-bir-test-yazisidir/icerik-1.jpg\" alt=\"\"></p>\n<p><img src=\"assets/images/posts/bu-bir-test-yazisidir/icerik-2.jpg\" alt=\"\"></p>\n",
-    "dateDisplay": "13 Eylül 2026",
-    "readingTime": 1,
-    "imageThumb": "assets/images/posts/bu-bir-test-yazisidir/kapak-thumb.jpg",
-    "pinOrder": 3,
-    "author": "H. Çelik",
-    "title_en": "This Is a Test Post.",
-    "excerpt_en": "This is an ibumed test post.",
-    "body_md_en": "We know you are eager to relive the unique nature of our campus, its pine-scented paths, and the unforgettable memories of our student years. As the İBUMED family, the countdown has begun for our Traditional Rice Day event, organized to refresh our bonds and reunite with old friends!\n\n\n<div class=\"post-gallery\"><img src=\"assets/images/posts/bu-bir-test-yazisidir/icerik-1.jpg\" alt=\"\"><img src=\"assets/images/posts/bu-bir-test-yazisidir/icerik-2.jpg\" alt=\"\"></div>\n\n![](assets/images/posts/bu-bir-test-yazisidir/icerik-1.jpg)\n\n![](assets/images/posts/bu-bir-test-yazisidir/icerik-2.jpg)",
-    "body_html_en": "<p>We know you are eager to relive the unique nature of our campus, its pine-scented paths, and the unforgettable memories of our student years. As the İBUMED family, the countdown has begun for our Traditional Rice Day event, organized to refresh our bonds and reunite with old friends!</p>\n<div class=\"post-gallery\"><img src=\"assets/images/posts/bu-bir-test-yazisidir/icerik-1.jpg\" alt=\"\"><img src=\"assets/images/posts/bu-bir-test-yazisidir/icerik-2.jpg\" alt=\"\"></div>\n<p><img src=\"assets/images/posts/bu-bir-test-yazisidir/icerik-1.jpg\" alt=\"\"></p>\n<p><img src=\"assets/images/posts/bu-bir-test-yazisidir/icerik-2.jpg\" alt=\"\"></p>\n"
-  },
-  {
     "slug": "ibumed-test-yazisi-2",
     "date": "2026-09-13",
     "title": "İbumed Test Yazısı 2",
