@@ -1,28 +1,6 @@
 // İBUMED site içerik verisi — İBUMED Blog Yayıncısı ile yönetilir.
 const IBUMED_STATIC_POSTS = [
   {
-    "slug": "ibumed-blog-yazisi",
-    "date": "2026-09-14",
-    "title": "İbumed Blog yazısı",
-    "excerpt": "özet",
-    "category": "blog",
-    "tags": [
-      "burs"
-    ],
-    "image": "/assets/images/posts/2026-linkedin-20-yil-sonra/kapak.jpg",
-    "body_md": "Bu bir test yazısıdır.\n\n<iframe src=\"https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7411398947400945664?compact=1\" height=\"399\" width=\"504\" frameborder=\"0\" allowfullscreen=\"\" title=\"Embedded post\"></iframe>",
-    "body_html": "<p>Bu bir test yazısıdır.</p>\n<iframe src=\"https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7411398947400945664?compact=1\" height=\"399\" width=\"504\" frameborder=\"0\" allowfullscreen=\"\" title=\"Embedded post\"></iframe>\n",
-    "dateDisplay": "14 Eylül 2026",
-    "readingTime": 1,
-    "pinOrder": 3,
-    "author": "Hasan Çelik",
-    "imageCredit": "hasan",
-    "title_en": "İbumed Blog Post",
-    "excerpt_en": "Summary",
-    "body_md_en": "This is a test post.\n\n<iframe src=\"https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7411398947400945664?compact=1\" height=\"399\" width=\"504\" frameborder=\"0\" allowfullscreen=\"\" title=\"Embedded post\"></iframe>",
-    "body_html_en": "<p>This is a test post.</p>\n<iframe src=\"https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7411398947400945664?compact=1\" height=\"399\" width=\"504\" frameborder=\"0\" allowfullscreen=\"\" title=\"Embedded post\"></iframe>\n"
-  },
-  {
     "slug": "20-yil-sonra-ayni-siralarda",
     "date": "2026-09-02",
     "title": "20 Yıl Sonra Aynı Sıralarda, İlk Günkü Gibi",
