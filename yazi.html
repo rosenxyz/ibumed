@@ -78,6 +78,7 @@
         ${showTrNotice ? `<div class="notice notice-warn" style="margin-top:24px;">${t("post.trnotice")}</div>` : ""}
         <div class="post-hero-image" onclick="openLightbox('${post.image || 'assets/images/hero_anasayfa.jpeg'}', '${escapeHTML(title).replace(/'/g, "\\'")}')" title="${t('post.viewfull') || 'Orijinalini görüntüle'}">
           <img src="${post.image || 'assets/images/hero_anasayfa.jpeg'}" alt="${escapeHTML(title)}">
+          ${post.imageCredit ? `<span class="hero-image-credit">${escapeHTML(post.imageCredit)}</span>` : ""}
         </div>
 
         <div class="article-layout">

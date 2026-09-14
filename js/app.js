@@ -124,6 +124,7 @@ function postCardHTML(post) {
     <div class="post-thumb">
       <img src="${img}" alt="${escapeHTML(title)}" loading="lazy">
       <span class="post-chip">${categoryLabel(post.category)}</span>
+      ${post.pinOrder ? `<span class="pin-badge" title="Sabitlenmiş yazı">📌</span>` : ""}
     </div>
     <div class="post-body">
       <span class="post-date">${turkishDate(post.date)} · ${post.readingTime || 2} ${t("post.reading")}</span>
@@ -140,7 +141,10 @@ function featuredPostHTML(post) {
   const excerpt = getLocalizedField(post, "excerpt");
   return `
   <a href="yazi.html?slug=${encodeURIComponent(post.slug)}" class="post-featured reveal">
-    <div class="post-thumb"><img src="${img}" alt="${escapeHTML(title)}"></div>
+    <div class="post-thumb">
+      <img src="${img}" alt="${escapeHTML(title)}">
+      ${post.pinOrder ? `<span class="pin-badge" title="Sabitlenmiş yazı">📌</span>` : ""}
+    </div>
     <div class="post-featured-body">
       <span class="post-date">${turkishDate(post.date)} · ${t("post.featured")}</span>
       <h3>${escapeHTML(title)}</h3>
