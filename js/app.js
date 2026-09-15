@@ -75,7 +75,17 @@ function todayDateString() {
 function getAllPosts() {
   const today = todayDateString();
   const merged = IBUMED_STATIC_POSTS.filter(p => p.date <= today);
-  merged.sort((a, b) => (a.date < b.date ? 1 : a.date > b.date ? -1 : 0));
+  // Aynı güne ait yazılar arasında doğru (yayınlanma anına göre) sıralama
+  // yapabilmek için, tarih eşitse "publishedAt" (yazı ilk kaydedildiğinde
+  // Blog Yayıncısı tarafından otomatik eklenen, kullanıcının hiç görmediği
+  // bir zaman damgası) ikincil ölçüt olarak kullanılır. Bu alanı taşımayan
+  // eski yazılarda sıralama önceki (eklenme sırasına göre kararlı) haliyle
+  // devam eder.
+  merged.sort((a, b) => {
+    if (a.date !== b.date) return a.date < b.date ? 1 : -1;
+    if (a.publishedAt && b.publishedAt) return a.publishedAt < b.publishedAt ? 1 : (a.publishedAt > b.publishedAt ? -1 : 0);
+    return 0;
+  });
   return merged;
 }
 
