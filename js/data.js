@@ -1,28 +1,6 @@
 // İBUMED site içerik verisi — İBUMED Blog Yayıncısı ile yönetilir.
 const IBUMED_STATIC_POSTS = [
   {
-    "slug": "yeni-blog-yazisi-3",
-    "date": "2026-09-14",
-    "title": "Yeni Blog Yazısı 3",
-    "excerpt": "Bu yeni bir blog yazısıdır",
-    "category": "blog",
-    "tags": [
-      "burs"
-    ],
-    "image": "https://finans29.ibu.edu.tr/Files/Images/img-20260709-wa0039_cropp...-9072026200614.jpg",
-    "body_md": "Bahar Şenliklerinde Buluşuyoruz!\n\nDeğerli Abant İzzet Baysal Üniversitesi mezunları ve öğrencileri, kampüsümüzde yeniden bir araya gelmenin heyecanını yaşıyoruz!\n\n## Kampüste Şenlik Heyecanı\n\n12-14 Ekim tarihleri arasında gerçekleşecek olan bahar şenliklerimizde müzik, yarışmalar ve bolca sohbet sizleri bekliyor. \n\nEski günleri yâd etmek ve kampüs ruhunu yeniden canlandırmak için tüm mezunlarımızı bu coşkuya ortak olmaya davet ediyoruz. Takvimlerinizi işaretlemeyi unutmayın!\n\n<iframe src=\"https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7411398947400945664?compact=1\" height=\"399\" width=\"504\" frameborder=\"0\" allowfullscreen=\"\" title=\"Embedded post\"></iframe>\n\n",
-    "body_html": "<p>Bahar Şenliklerinde Buluşuyoruz!</p>\n<p>Değerli Abant İzzet Baysal Üniversitesi mezunları ve öğrencileri, kampüsümüzde yeniden bir araya gelmenin heyecanını yaşıyoruz!</p>\n<h2>Kampüste Şenlik Heyecanı</h2>\n<p>12-14 Ekim tarihleri arasında gerçekleşecek olan bahar şenliklerimizde müzik, yarışmalar ve bolca sohbet sizleri bekliyor.</p>\n<p>Eski günleri yâd etmek ve kampüs ruhunu yeniden canlandırmak için tüm mezunlarımızı bu coşkuya ortak olmaya davet ediyoruz. Takvimlerinizi işaretlemeyi unutmayın!</p>\n<iframe src=\"https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7411398947400945664?compact=1\" height=\"399\" width=\"504\" frameborder=\"0\" allowfullscreen=\"\" title=\"Embedded post\"></iframe>\n",
-    "dateDisplay": "14 Eylül 2026",
-    "readingTime": 1,
-    "pinOrder": 3,
-    "author": "Hasan Çelik",
-    "imageCredit": "Hasan Çelik, Kaynak : finans29.ibu.edu.tr)",
-    "title_en": "New Blog Post 3",
-    "excerpt_en": "This is a new blog post",
-    "body_md_en": "We Are Meeting at the Spring Festival!\n\nDear Abant İzzet Baysal University alumni and students, we are excited to come together again on our campus!\n\n## Festival Excitement on Campus\n\nMusic, competitions, and plenty of conversation await you at our spring festival, which will take place between October 12-14.\n\nWe invite all our alumni to share in this enthusiasm to reminisce about old days and revive the campus spirit. Don't forget to mark your calendars!\n\n<iframe src=\"https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7411398947400945664?compact=1\" height=\"399\" width=\"504\" frameborder=\"0\" allowfullscreen=\"\" title=\"Embedded post\"></iframe>",
-    "body_html_en": "<p>We Are Meeting at the Spring Festival!</p>\n<p>Dear Abant İzzet Baysal University alumni and students, we are excited to come together again on our campus!</p>\n<h2>Festival Excitement on Campus</h2>\n<p>Music, competitions, and plenty of conversation await you at our spring festival, which will take place between October 12-14.</p>\n<p>We invite all our alumni to share in this enthusiasm to reminisce about old days and revive the campus spirit. Don't forget to mark your calendars!</p>\n<iframe src=\"https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7411398947400945664?compact=1\" height=\"399\" width=\"504\" frameborder=\"0\" allowfullscreen=\"\" title=\"Embedded post\"></iframe>\n"
-  },
-  {
     "slug": "blog-yazisi-3",
     "date": "2026-09-14",
     "title": "Blog Yazısı 3",
