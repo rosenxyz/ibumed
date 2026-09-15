@@ -1,29 +1,6 @@
 // İBUMED site içerik verisi — İBUMED Blog Yayıncısı ile yönetilir.
 const IBUMED_STATIC_POSTS = [
   {
-    "slug": "blog-yazisi-3",
-    "date": "2026-09-14",
-    "title": "Blog Yazısı 3",
-    "excerpt": "Bu bir blog yazısıdır",
-    "category": "blog",
-    "tags": [
-      "burs"
-    ],
-    "image": "assets/images/posts/blog-yazisi-3/kapak.jpg",
-    "body_md": "## Büyük İBUMED Buluşması: Geleneksel Pilav Günümüzde Buluşuyoruz!\n\nDeğerli Abant İzzet Baysal Üniversitesi Mezunlarımız,\n\nKampüsümüzün eşsiz atmosferini yeniden solumak, eski dostlarla kucaklaşmak ve unutulmaz anıları tazelemek için sabırsızlanıyoruz! 12-14 Ekim tarihleri arasında gerçekleştireceğimiz Geleneksel Pilav Günü etkinliğimizde tüm mezunlarımızı aramızda görmekten büyük mutluluk duyacağız.\n\nTarihlerinizi şimdiden ayırtın; Bolu’da, yuvamızda yeniden buluşalım!\n\n<iframe src=\"https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7504823164699439104?compact=1\" height=\"399\" width=\"504\" frameborder=\"0\" allowfullscreen=\"\" title=\"Embedded post\"></iframe>",
-    "body_html": "<h2>Büyük İBUMED Buluşması: Geleneksel Pilav Günümüzde Buluşuyoruz!</h2>\n<p>Değerli Abant İzzet Baysal Üniversitesi Mezunlarımız,</p>\n<p>Kampüsümüzün eşsiz atmosferini yeniden solumak, eski dostlarla kucaklaşmak ve unutulmaz anıları tazelemek için sabırsızlanıyoruz! 12-14 Ekim tarihleri arasında gerçekleştireceğimiz Geleneksel Pilav Günü etkinliğimizde tüm mezunlarımızı aramızda görmekten büyük mutluluk duyacağız.</p>\n<p>Tarihlerinizi şimdiden ayırtın; Bolu’da, yuvamızda yeniden buluşalım!</p>\n<iframe src=\"https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7504823164699439104?compact=1\" height=\"399\" width=\"504\" frameborder=\"0\" allowfullscreen=\"\" title=\"Embedded post\"></iframe>\n",
-    "dateDisplay": "14 Eylül 2026",
-    "readingTime": 1,
-    "imageThumb": "assets/images/posts/blog-yazisi-3/kapak-thumb.jpg",
-    "pinOrder": 2,
-    "author": "Hasan Çelik",
-    "imageCredit": "Hasan Çelik, Kaynak : ifinans29.ibu.edu.tr",
-    "title_en": "Blog Post 3",
-    "excerpt_en": "This is a blog post",
-    "body_md_en": "## The Grand IBUMED Gathering: Meeting at the Traditional Rice Day!\n\nDear Abant İzzet Baysal University Alumni,\n\nWe can't wait to breathe in the unique atmosphere of our campus once again, embrace old friends, and refresh unforgettable memories! We will be extremely happy to see all our alumni among us at our Traditional Rice Day event, which will take place between October 12-14.\n\nSave the dates in advance; let's meet again in Bolu, in our home!\n\n<iframe src=\"https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7504823164699439104?compact=1\" height=\"399\" width=\"504\" frameborder=\"0\" allowfullscreen=\"\" title=\"Embedded post\"></iframe>",
-    "body_html_en": "<h2>The Grand IBUMED Gathering: Meeting at the Traditional Rice Day!</h2>\n<p>Dear Abant İzzet Baysal University Alumni,</p>\n<p>We can't wait to breathe in the unique atmosphere of our campus once again, embrace old friends, and refresh unforgettable memories! We will be extremely happy to see all our alumni among us at our Traditional Rice Day event, which will take place between October 12-14.</p>\n<p>Save the dates in advance; let's meet again in Bolu, in our home!</p>\n<iframe src=\"https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7504823164699439104?compact=1\" height=\"399\" width=\"504\" frameborder=\"0\" allowfullscreen=\"\" title=\"Embedded post\"></iframe>\n"
-  },
-  {
     "slug": "20-yil-sonra-ayni-siralarda",
     "date": "2026-09-02",
     "title": "20 Yıl Sonra Aynı Sıralarda, İlk Günkü Gibi",
