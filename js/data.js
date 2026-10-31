@@ -42,6 +42,7 @@ const IBUMED_STATIC_POSTS = [
     "body_html": "<p>Mezunumuz ve Koru Hotel Bolu Genel Müdürü Hikmet Yeşilkaya ile gerçekleştirdiğimiz iş birliği kapsamında; BAİBÜ mezunları ve birinci derece yakınlarına konaklama, toplantı ve organizasyon hizmetlerinde %20 indirim sağlayan anlaşmamızı imzaladık.</p>\n<p>İndirimden yararlanmak için rezervasyon sırasında BAİBÜ mezuniyet belgenizi ibraz etmeniz yeterli.</p>\n<p>İBUMED olarak mezunlarımız arasındaki dayanışmayı güçlendiren ve mezunlarımıza ayrıcalıklar sağlayan iş birliklerini artırmaya devam edeceğiz.</p>\n",
     "dateDisplay": "15 Eylül 2026",
     "readingTime": 1,
+    "imageThumb": "assets/images/posts/mezunlarimiza-ozel-yeni-bir-avantaj/kapak-thumb.jpg",
     "author": "İBUMED Yönetim Kurulu",
     "title_en": "A New Exclusive Benefit for Our Alumni",
     "excerpt_en": "Discount Agreement",
