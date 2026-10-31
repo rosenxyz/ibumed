@@ -1,6 +1,32 @@
 // İBUMED site içerik verisi — İBUMED Blog Yayıncısı ile yönetilir.
 const IBUMED_STATIC_POSTS = [
   {
+    "slug": "mezunlarimiza-ozel-yeni-bir-avantaj",
+    "date": "2026-10-31",
+    "title": "Mezunlarımıza Özel Yeni Bir Avantaj!",
+    "excerpt": "İndirim Anlaşması",
+    "category": "blog",
+    "tags": [
+      "İBUMED",
+      "BAİBÜ",
+      "Koruhastanesi",
+      "İndirim",
+      "Mezun"
+    ],
+    "image": "assets/images/posts/mezunlarimiza-ozel-yeni-bir-avantaj/kapak.jpg",
+    "body_md": "İBUMED olarak, mezunumuz Hikmet Yeşilkaya ile gerçekleştirdiğimiz iş birliği kapsamında, BAİBÜ mezunları ve birinci derece yakınlarına özel sağlık hizmetleri indirim anlaşmamızı imzaladık. 🤝\n\nAnlaşmamız kapsamında;\n\n🏥 Özel Koru Hastanesi – Çukurambar\n- Ayakta tedavide %20 indirim\n- Yatarak tedavide %10 indirim\n\n🏥 Özel Koru Hastanesi – Sincan\n- Ayakta tedavide %15 indirim\n- Yatarak tedavide %10 indirim\n\n🏥 Özel Koru Hastanesi – Kavaklıdere\n- Ayakta tedavide %15 indirim\n- Yatarak tedavide %10 indirim\n\n📌 İndirimlerden yararlanmak için hastaneye BAİBÜ mezuniyet belgenizi ibraz etmeniz yeterlidir.\n\nİBUMED olarak mezunlarımızın ve ailelerinin yaşamına değer katan, mezunlarımız arasındaki dayanışmayı güçlendiren iş birliklerini artırmaya devam ediyoruz.\n\n**BAİBÜ’lü olmak mezuniyetle bitmez! 🎓\n\n",
+    "body_html": "<p>İBUMED olarak, mezunumuz Hikmet Yeşilkaya ile gerçekleştirdiğimiz iş birliği kapsamında, BAİBÜ mezunları ve birinci derece yakınlarına özel sağlık hizmetleri indirim anlaşmamızı imzaladık. 🤝</p>\n<p>Anlaşmamız kapsamında;</p>\n<p>🏥 Özel Koru Hastanesi – Çukurambar</p>\n<ul>\n<li>Ayakta tedavide %20 indirim</li>\n<li>Yatarak tedavide %10 indirim</li>\n</ul>\n<p>🏥 Özel Koru Hastanesi – Sincan</p>\n<ul>\n<li>Ayakta tedavide %15 indirim</li>\n<li>Yatarak tedavide %10 indirim</li>\n</ul>\n<p>🏥 Özel Koru Hastanesi – Kavaklıdere</p>\n<ul>\n<li>Ayakta tedavide %15 indirim</li>\n<li>Yatarak tedavide %10 indirim</li>\n</ul>\n<p>📌 İndirimlerden yararlanmak için hastaneye BAİBÜ mezuniyet belgenizi ibraz etmeniz yeterlidir.</p>\n<p>İBUMED olarak mezunlarımızın ve ailelerinin yaşamına değer katan, mezunlarımız arasındaki dayanışmayı güçlendiren iş birliklerini artırmaya devam ediyoruz.</p>\n<p>**BAİBÜ’lü olmak mezuniyetle bitmez! 🎓</p>\n",
+    "dateDisplay": "31 Ekim 2026",
+    "readingTime": 1,
+    "imageThumb": "assets/images/posts/mezunlarimiza-ozel-yeni-bir-avantaj/kapak-thumb.jpg",
+    "author": "İBUMED Yönetim Kurulu",
+    "title_en": "A New Exclusive Advantage for Our Alumni!",
+    "excerpt_en": "Discount Agreement",
+    "body_md_en": "As İBUMED, as part of our collaboration with our alumnus Hikmet Yeşilkaya, we have signed a special healthcare services discount agreement for BAİBÜ alumni and their first-degree relatives. 🤝\n\nUnder our agreement;\n\n🏥 Private Koru Hospital – Çukurambar\n- 20% discount on outpatient treatment\n- 10% discount on inpatient treatment\n\n🏥 Private Koru Hospital – Sincan\n- 15% discount on outpatient treatment\n- 10% discount on inpatient treatment\n\n🏥 Private Koru Hospital – Kavaklıdere\n- 15% discount on outpatient treatment\n- 10% discount on inpatient treatment\n\n📌 To benefit from the discounts, it is sufficient to present your BAİBÜ graduation certificate at the hospital.\n\nAs İBUMED, we continue to expand collaborations that add value to the lives of our alumni and their families and strengthen solidarity among our graduates.\n\n**Being a member of BAİBÜ doesn't end with graduation! 🎓",
+    "body_html_en": "<p>As İBUMED, as part of our collaboration with our alumnus Hikmet Yeşilkaya, we have signed a special healthcare services discount agreement for BAİBÜ alumni and their first-degree relatives. 🤝</p>\n<p>Under our agreement;</p>\n<p>🏥 Private Koru Hospital – Çukurambar</p>\n<ul>\n<li>20% discount on outpatient treatment</li>\n<li>10% discount on inpatient treatment</li>\n</ul>\n<p>🏥 Private Koru Hospital – Sincan</p>\n<ul>\n<li>15% discount on outpatient treatment</li>\n<li>10% discount on inpatient treatment</li>\n</ul>\n<p>🏥 Private Koru Hospital – Kavaklıdere</p>\n<ul>\n<li>15% discount on outpatient treatment</li>\n<li>10% discount on inpatient treatment</li>\n</ul>\n<p>📌 To benefit from the discounts, it is sufficient to present your BAİBÜ graduation certificate at the hospital.</p>\n<p>As İBUMED, we continue to expand collaborations that add value to the lives of our alumni and their families and strengthen solidarity among our graduates.</p>\n<p>**Being a member of BAİBÜ doesn't end with graduation! 🎓</p>\n",
+    "publishedAt": "2026-10-31T18:24:42.918Z"
+  },
+  {
     "slug": "baibu-ibumed-mentorluk-programi-ikinci-yilinda-devam-ediyor",
     "date": "2026-10-20",
     "title": "BAİBÜ–İBUMED Mentorluk Programı İkinci Yılında Devam Ediyor!",
