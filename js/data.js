@@ -1,32 +1,6 @@
 // İBUMED site içerik verisi — İBUMED Blog Yayıncısı ile yönetilir.
 const IBUMED_STATIC_POSTS = [
   {
-    "slug": "mezunlarimiza-ozel-yeni-bir-avantaj",
-    "date": "2026-10-31",
-    "title": "Mezunlarımıza Özel Yeni Bir Avantaj",
-    "excerpt": "İndirim Anlaşması",
-    "category": "blog",
-    "tags": [
-      "İBUMED",
-      "BAİBÜ",
-      "MezunAğı",
-      "KoruHotelBolu",
-      "MezunDayanışması"
-    ],
-    "image": "assets/images/posts/mezunlarimiza-ozel-yeni-bir-avantaj/kapak.jpg",
-    "body_md": "Mezunumuz ve Koru Hotel Bolu Genel Müdürü Hikmet Yeşilkaya ile gerçekleştirdiğimiz iş birliği kapsamında; BAİBÜ mezunları ve birinci derece yakınlarına konaklama, toplantı ve organizasyon hizmetlerinde %20 indirim sağlayan anlaşmamızı imzaladık.\n\nİndirimden yararlanmak için rezervasyon sırasında BAİBÜ mezuniyet belgenizi ibraz etmeniz yeterli.\n\nİBUMED olarak mezunlarımız arasındaki dayanışmayı güçlendiren ve mezunlarımıza ayrıcalıklar sağlayan iş birliklerini artırmaya devam edeceğiz.",
-    "body_html": "<p>Mezunumuz ve Koru Hotel Bolu Genel Müdürü Hikmet Yeşilkaya ile gerçekleştirdiğimiz iş birliği kapsamında; BAİBÜ mezunları ve birinci derece yakınlarına konaklama, toplantı ve organizasyon hizmetlerinde %20 indirim sağlayan anlaşmamızı imzaladık.</p>\n<p>İndirimden yararlanmak için rezervasyon sırasında BAİBÜ mezuniyet belgenizi ibraz etmeniz yeterli.</p>\n<p>İBUMED olarak mezunlarımız arasındaki dayanışmayı güçlendiren ve mezunlarımıza ayrıcalıklar sağlayan iş birliklerini artırmaya devam edeceğiz.</p>\n",
-    "dateDisplay": "31 Ekim 2026",
-    "readingTime": 1,
-    "imageThumb": "assets/images/posts/mezunlarimiza-ozel-yeni-bir-avantaj/kapak-thumb.jpg",
-    "author": "İBUMED Yönetim Kurulu",
-    "title_en": "A New Exclusive Benefit for Our Alumni",
-    "excerpt_en": "Discount Agreement",
-    "body_md_en": "As part of our collaboration with our alumnus and General Manager of Koru Hotel Bolu, Hikmet Yeşilkaya, we have signed an agreement providing a 20% discount on accommodation, meeting, and event services for BAİBÜ alumni and their first-degree relatives.\n\nTo benefit from the discount, simply present your BAİBÜ graduation certificate during reservation.\n\nAs İBUMED, we will continue to increase collaborations that strengthen solidarity among our alumni and provide privileges to them.",
-    "body_html_en": "<p>As part of our collaboration with our alumnus and General Manager of Koru Hotel Bolu, Hikmet Yeşilkaya, we have signed an agreement providing a 20% discount on accommodation, meeting, and event services for BAİBÜ alumni and their first-degree relatives.</p>\n<p>To benefit from the discount, simply present your BAİBÜ graduation certificate during reservation.</p>\n<p>As İBUMED, we will continue to increase collaborations that strengthen solidarity among our alumni and provide privileges to them.</p>\n",
-    "publishedAt": "2026-10-31T18:24:42.918Z"
-  },
-  {
     "slug": "baibu-ibumed-mentorluk-programi-ikinci-yilinda-devam-ediyor",
     "date": "2026-10-20",
     "title": "BAİBÜ–İBUMED Mentorluk Programı İkinci Yılında Devam Ediyor!",
@@ -49,6 +23,31 @@ const IBUMED_STATIC_POSTS = [
     "body_md_en": "The experiences of our alumni shed light on the future of our students!\n\nImplemented through the collaboration of Bolu Abant İzzet Baysal University (BAİBÜ) and Abant İzzet Baysal University Alumni Association (İBUMED), with contributions from the BAİBÜ Career Planning and Alumni Tracking Application and Research Center (KARMER), the BAİBÜ–İBUMED Mentorship Program continues to bring our students and alumni together in its second year.\n\nCarried out to support our students in their career planning, contribute to their professional and personal development, and transfer the knowledge and experience of our alumni to future generations, the program will take place between November 2026 and June 2027.\n\nWithin the scope of the program, our students will have the opportunity to plan their career journeys more consciously under the guidance of our university's alumni who have gained experience in various sectors.\n\nWhat Does the Mentorship Program Offer?\n\nCareer Planning: Supporting students in defining their career goals in line with their interests and competencies.\n\nGoal Setting: Creating a roadmap for professional and personal development processes.\n\nExperience Sharing: Transferring our alumni's knowledge, expertise, and experience to our students.\n\nOne-on-One Guidance: Providing guidance support to our students from experienced alumni throughout their career journey.\n\nNetworking with Alumni: Establishing strong and sustainable bonds between our students and alumni.\n\nA Bridge from Experience to the Future\n\nAs İBUMED, we attach great importance to bringing the knowledge and experience of our university alumni together with our students, and strengthening the culture of belonging and solidarity between our alumni and our university.\n\nThrough the Mentorship Program, we aim to contribute not only to our students' career development but also to enabling them to become part of our university's strong alumni network.\n\nApplications Are Open!\n\nBAİBÜ students wishing to join the BAİBÜ–İBUMED Mentorship Program can submit their applications via the link below.\n\n📅 Application Deadline: October 30, 2026\n\n\n👉 Application Form: [Click Here for the Application Form](https://docs.google.com/forms/d/19-tcpt5MAAxTElqfws4OmHdBeBEpJIgP2EnWriNLC7E/edit)\n\nJoin the BAİBÜ–İBUMED Mentorship Program to benefit from the experience of our alumni as you take steps toward your future!",
     "body_html_en": "<p>The experiences of our alumni shed light on the future of our students!</p>\n<p>Implemented through the collaboration of Bolu Abant İzzet Baysal University (BAİBÜ) and Abant İzzet Baysal University Alumni Association (İBUMED), with contributions from the BAİBÜ Career Planning and Alumni Tracking Application and Research Center (KARMER), the BAİBÜ–İBUMED Mentorship Program continues to bring our students and alumni together in its second year.</p>\n<p>Carried out to support our students in their career planning, contribute to their professional and personal development, and transfer the knowledge and experience of our alumni to future generations, the program will take place between November 2026 and June 2027.</p>\n<p>Within the scope of the program, our students will have the opportunity to plan their career journeys more consciously under the guidance of our university's alumni who have gained experience in various sectors.</p>\n<p>What Does the Mentorship Program Offer?</p>\n<p>Career Planning: Supporting students in defining their career goals in line with their interests and competencies.</p>\n<p>Goal Setting: Creating a roadmap for professional and personal development processes.</p>\n<p>Experience Sharing: Transferring our alumni's knowledge, expertise, and experience to our students.</p>\n<p>One-on-One Guidance: Providing guidance support to our students from experienced alumni throughout their career journey.</p>\n<p>Networking with Alumni: Establishing strong and sustainable bonds between our students and alumni.</p>\n<p>A Bridge from Experience to the Future</p>\n<p>As İBUMED, we attach great importance to bringing the knowledge and experience of our university alumni together with our students, and strengthening the culture of belonging and solidarity between our alumni and our university.</p>\n<p>Through the Mentorship Program, we aim to contribute not only to our students' career development but also to enabling them to become part of our university's strong alumni network.</p>\n<p>Applications Are Open!</p>\n<p>BAİBÜ students wishing to join the BAİBÜ–İBUMED Mentorship Program can submit their applications via the link below.</p>\n<p>📅 Application Deadline: October 30, 2026</p>\n<p>👉 Application Form: <a href=\"https://docs.google.com/forms/d/19-tcpt5MAAxTElqfws4OmHdBeBEpJIgP2EnWriNLC7E/edit\" target=\"_blank\" rel=\"noopener\">Click Here for the Application Form</a></p>\n<p>Join the BAİBÜ–İBUMED Mentorship Program to benefit from the experience of our alumni as you take steps toward your future!</p>\n",
     "publishedAt": "2026-10-20T12:06:20.325Z"
+  },
+  {
+    "slug": "mezunlarimiza-ozel-yeni-bir-avantaj",
+    "date": "2026-09-15",
+    "title": "Mezunlarımıza Özel Yeni Bir Avantaj",
+    "excerpt": "İndirim Anlaşması",
+    "category": "blog",
+    "tags": [
+      "İBUMED",
+      "BAİBÜ",
+      "MezunAğı",
+      "KoruHotelBolu",
+      "MezunDayanışması"
+    ],
+    "image": "assets/images/posts/mezunlarimiza-ozel-yeni-bir-avantaj/kapak.jpg",
+    "body_md": "Mezunumuz ve Koru Hotel Bolu Genel Müdürü Hikmet Yeşilkaya ile gerçekleştirdiğimiz iş birliği kapsamında; BAİBÜ mezunları ve birinci derece yakınlarına konaklama, toplantı ve organizasyon hizmetlerinde %20 indirim sağlayan anlaşmamızı imzaladık.\n\nİndirimden yararlanmak için rezervasyon sırasında BAİBÜ mezuniyet belgenizi ibraz etmeniz yeterli.\n\nİBUMED olarak mezunlarımız arasındaki dayanışmayı güçlendiren ve mezunlarımıza ayrıcalıklar sağlayan iş birliklerini artırmaya devam edeceğiz.",
+    "body_html": "<p>Mezunumuz ve Koru Hotel Bolu Genel Müdürü Hikmet Yeşilkaya ile gerçekleştirdiğimiz iş birliği kapsamında; BAİBÜ mezunları ve birinci derece yakınlarına konaklama, toplantı ve organizasyon hizmetlerinde %20 indirim sağlayan anlaşmamızı imzaladık.</p>\n<p>İndirimden yararlanmak için rezervasyon sırasında BAİBÜ mezuniyet belgenizi ibraz etmeniz yeterli.</p>\n<p>İBUMED olarak mezunlarımız arasındaki dayanışmayı güçlendiren ve mezunlarımıza ayrıcalıklar sağlayan iş birliklerini artırmaya devam edeceğiz.</p>\n",
+    "dateDisplay": "15 Eylül 2026",
+    "readingTime": 1,
+    "author": "İBUMED Yönetim Kurulu",
+    "title_en": "A New Exclusive Benefit for Our Alumni",
+    "excerpt_en": "Discount Agreement",
+    "body_md_en": "As part of our collaboration with our alumnus and General Manager of Koru Hotel Bolu, Hikmet Yeşilkaya, we have signed an agreement providing a 20% discount on accommodation, meeting, and event services for BAİBÜ alumni and their first-degree relatives.\n\nTo benefit from the discount, simply present your BAİBÜ graduation certificate during reservation.\n\nAs İBUMED, we will continue to increase collaborations that strengthen solidarity among our alumni and provide privileges to them.",
+    "body_html_en": "<p>As part of our collaboration with our alumnus and General Manager of Koru Hotel Bolu, Hikmet Yeşilkaya, we have signed an agreement providing a 20% discount on accommodation, meeting, and event services for BAİBÜ alumni and their first-degree relatives.</p>\n<p>To benefit from the discount, simply present your BAİBÜ graduation certificate during reservation.</p>\n<p>As İBUMED, we will continue to increase collaborations that strengthen solidarity among our alumni and provide privileges to them.</p>\n",
+    "publishedAt": "2026-10-31T18:24:42.918Z"
   },
   {
     "slug": "20-yil-sonra-ayni-siralarda",
