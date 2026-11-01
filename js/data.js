@@ -42,7 +42,7 @@ const IBUMED_STATIC_POSTS = [
     "body_html": "<p>İBUMED olarak, mezunumuz <strong>Hikmet Yeşilkaya</strong> ile gerçekleştirdiğimiz iş birliği kapsamında, BAİBÜ mezunları ve birinci derece yakınlarına özel sağlık hizmetleri indirim anlaşmamızı imzaladık. 🤝</p>\n<p>Anlaşmamız kapsamında;</p>\n<p><strong>Özel Koru Hastanesi – Çukurambar</strong></p>\n<ul>\n<li>Ayakta tedavide <strong>%20 indirim</strong></li>\n<li>Yatarak tedavide <strong>%10 indirim</strong></li>\n</ul>\n<p><strong>Özel Koru Hastanesi – Sincan</strong></p>\n<ul>\n<li>Ayakta tedavide <strong>%15 indirim</strong></li>\n<li>Yatarak tedavide <strong>%10 indirim</strong></li>\n</ul>\n<p><strong>Özel Koru Hastanesi – Kavaklıdere</strong></p>\n<ul>\n<li>Ayakta tedavide <strong>%15 indirim</strong></li>\n<li>Yatarak tedavide <strong>%10 indirim</strong></li>\n</ul>\n<p>📌 <strong>İndirimlerden yararlanmak için hastaneye başvuru sırasında BAİBÜ mezuniyet belgenizi ibraz etmeniz yeterlidir.</strong></p>\n<p>İBUMED olarak mezunlarımızın ve ailelerinin yaşamına değer katan, mezunlarımız arasındaki dayanışmayı güçlendiren iş birliklerini artırmaya devam ediyoruz.</p>\n<p><strong>BAİBÜ’lü olmak mezuniyetle bitmez!</strong></p>\n",
     "dateDisplay": "31 Ekim 2026",
     "readingTime": 1,
-    "imageThumb": "assets/images/posts/baibu-mezunlarina-ozel-yeni-bir-saglik-avantaji/kapak-thumb.jpg",
+    "pinOrder": 1,
     "author": "İBUMED Yönetim Kurulu",
     "title_en": "🎓 A New Healthcare Benefit Exclusive to BAİBÜ Alumni!",
     "excerpt_en": "Discount Agreement",
