@@ -1,6 +1,30 @@
 // İBUMED site içerik verisi — İBUMED Blog Yayıncısı ile yönetilir.
 const IBUMED_STATIC_POSTS = [
   {
+    "slug": "ibumed-kuresel-guc-turkiye-genclik-bulusmasinda-yerini-aldi",
+    "date": "2026-11-01",
+    "title": "İBUMED, “Küresel Güç Türkiye” Gençlik Buluşmasında Yerini Aldı",
+    "excerpt": "Abant İzzet Baysal Üniversitesi Mezunları Derneği (İBUMED), 30 Ekim 2026 tarihinde Bolu Abant İzzet Baysal Üniversitesi'nde düzenlenen “Yeni Dünya Düzeninde Küresel Güç Türkiye” konulu Gençlik Buluşması etkinliğine tanıtım standıyla katıldı.",
+    "category": "blog",
+    "tags": [
+      "İBUMED",
+      "BAİBÜ",
+      "mezun"
+    ],
+    "image": "assets/images/posts/ibumed-kuresel-guc-turkiye-genclik-bulusmasinda-yerini-aldi/kapak.jpg",
+    "body_md": "Bolu Abant İzzet Baysal Üniversitesi ve Yeni Dünya Vakfı Bolu Şubesi iş birliğiyle gerçekleştirilen etkinlik, akademisyenleri, öğrencileri ve farklı kurumların temsilcilerini bir araya getirdi.\n\nEtkinlik kapsamında açtığımız İBUMED tanıtım standında, üniversite öğrencileri ve katılımcılarla bir araya gelerek derneğimizin faaliyetlerini tanıtma fırsatı bulduk.\n\nÖzellikle burs, mentorluk, mezunlar arası dayanışma ve üniversite-mezun ilişkilerinin güçlendirilmesine yönelik çalışmalarımız hakkında bilgilendirmelerde bulunduk.\n\nİBUMED olarak, öğrencilerimizle mezunlarımız arasında güçlü ve sürdürülebilir bağlar kurulmasını önemsiyor; üniversitemizin sosyal, kültürel ve akademik yaşamına katkı sağlayan etkinliklerde yer almaya devam ediyoruz.\n\nBu anlamlı organizasyonda emeği geçen Bolu Abant İzzet Baysal Üniversitesi ve Yeni Dünya Vakfı Bolu Şubesi yetkililerine teşekkür ediyoruz.\n\nİBUMED – BAİBÜ Mezunları Her Yerde!",
+    "body_html": "<p>Bolu Abant İzzet Baysal Üniversitesi ve Yeni Dünya Vakfı Bolu Şubesi iş birliğiyle gerçekleştirilen etkinlik, akademisyenleri, öğrencileri ve farklı kurumların temsilcilerini bir araya getirdi.</p>\n<p>Etkinlik kapsamında açtığımız İBUMED tanıtım standında, üniversite öğrencileri ve katılımcılarla bir araya gelerek derneğimizin faaliyetlerini tanıtma fırsatı bulduk.</p>\n<p>Özellikle burs, mentorluk, mezunlar arası dayanışma ve üniversite-mezun ilişkilerinin güçlendirilmesine yönelik çalışmalarımız hakkında bilgilendirmelerde bulunduk.</p>\n<p>İBUMED olarak, öğrencilerimizle mezunlarımız arasında güçlü ve sürdürülebilir bağlar kurulmasını önemsiyor; üniversitemizin sosyal, kültürel ve akademik yaşamına katkı sağlayan etkinliklerde yer almaya devam ediyoruz.</p>\n<p>Bu anlamlı organizasyonda emeği geçen Bolu Abant İzzet Baysal Üniversitesi ve Yeni Dünya Vakfı Bolu Şubesi yetkililerine teşekkür ediyoruz.</p>\n<p>İBUMED – BAİBÜ Mezunları Her Yerde!</p>\n",
+    "dateDisplay": "1 Kasım 2026",
+    "readingTime": 1,
+    "imageThumb": "assets/images/posts/ibumed-kuresel-guc-turkiye-genclik-bulusmasinda-yerini-aldi/kapak-thumb.jpg",
+    "author": "İBUMED Yönetim Kurulu",
+    "title_en": "İBUMED Takes Its Place at the \"Global Power Türkiye\" Youth Gathering",
+    "excerpt_en": "Abant İzzet Baysal University Alumni Association (İBUMED) participated with a promotional booth at the Youth Gathering event themed \"Global Power Türkiye in the New World Order,\" held at Bolu Abant İzzet Baysal University on October 30, 2026.",
+    "body_md_en": "Organized in cooperation with Bolu Abant İzzet Baysal University and the Yeni Dünya Foundation Bolu Branch, the event brought together academics, students, and representatives from various institutions.\n\nAt the İBUMED promotional booth set up as part of the event, we had the opportunity to meet with university students and attendees to introduce our association's activities.\n\nWe specifically provided information about our efforts regarding scholarships, mentorship, solidarity among alumni, and strengthening university-alumni relations.\n\nAs İBUMED, we attach great importance to establishing strong and sustainable bonds between our students and alumni, and we continue to take part in events that contribute to the social, cultural, and academic life of our university.\n\nWe would like to thank the officials of Bolu Abant İzzet Baysal University and the Yeni Dünya Foundation Bolu Branch who contributed to this meaningful organization.\n\nİBUMED – BAİBÜ Alumni Are Everywhere!",
+    "body_html_en": "<p>Organized in cooperation with Bolu Abant İzzet Baysal University and the Yeni Dünya Foundation Bolu Branch, the event brought together academics, students, and representatives from various institutions.</p>\n<p>At the İBUMED promotional booth set up as part of the event, we had the opportunity to meet with university students and attendees to introduce our association's activities.</p>\n<p>We specifically provided information about our efforts regarding scholarships, mentorship, solidarity among alumni, and strengthening university-alumni relations.</p>\n<p>As İBUMED, we attach great importance to establishing strong and sustainable bonds between our students and alumni, and we continue to take part in events that contribute to the social, cultural, and academic life of our university.</p>\n<p>We would like to thank the officials of Bolu Abant İzzet Baysal University and the Yeni Dünya Foundation Bolu Branch who contributed to this meaningful organization.</p>\n<p>İBUMED – BAİBÜ Alumni Are Everywhere!</p>\n",
+    "publishedAt": "2026-11-01T14:06:36.089Z"
+  },
+  {
     "slug": "baibu-mezunlarina-ozel-yeni-bir-saglik-avantaji",
     "date": "2026-10-31",
     "title": "🎓 BAİBÜ Mezunlarına Özel Yeni Bir Sağlık Avantajı!",
